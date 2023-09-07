@@ -48,3 +48,28 @@ function printResultToScreen(result){
 
     output.append(result);
 }
+
+let number = Math.floor(Math.random() * 1000);
+var numberOfGuesses = 0;
+
+function randomNumberGuesser(){
+    let guess = Number(document.getElementById("guess").value);
+    numberOfGuesses += 1;
+
+    if(number === guess)
+    {
+        let amount = "Antal gæt: " + numberOfGuesses;
+        alert("Du har regnet det ud");
+        document.getElementById("showGuessCounter").textContent = amount;
+    }
+    else if(number < guess)
+    {
+        alert("Det magiske tal er mindre en dette gæt");
+    }
+    else if(number > guess)
+    {
+        alert("Det magiske tal er større and dette gæt");
+    }
+
+    //alert(number);
+}
