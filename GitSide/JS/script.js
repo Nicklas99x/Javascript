@@ -73,3 +73,80 @@ function randomNumberGuesser(){
 
     //alert(number);
 }
+
+let countPlat = 0;
+let countKrone = 0;
+
+function tossCoins(){
+    let cointoss = Math.floor(Math.random()*2+1);
+
+    const plat = "plat";
+    const krone = "krone";
+
+    if(cointoss == 1)
+    {
+        countPlat++;
+        alert("Det blev " + plat + " for " + countPlat + ". gang");
+    }
+    else
+    {
+        countKrone++
+        alert("Det blev " + krone + " for " + countKrone + ". gang");
+    }
+
+    console.log(cointoss);
+}
+
+function printCubeResultToScreen(result){
+    //output.innerText = "";
+    let output = document.getElementById("result");
+
+    output.append("du slog en " + result);
+}
+
+let result = "";
+
+function cubeToss(){
+    let cointoss = Math.floor(Math.random()*6 + 1);
+    let output = document.getElementById("result");
+
+    switch(cointoss)
+    {
+        case 1:
+            output.innerText = "Du slog en etter";
+            break;
+        case 2:
+            output.innerText = "Du slog en toer";
+            break;
+        case 3:
+            output.innerText = "Du slog en treer";
+            break;
+        case 4:
+            output.innerText = "Du slog en firer";
+            break;
+        case 5:
+            output.innerText = "Du slog en femmer";
+            break;
+        case 6:
+            output.innerText = "Du slog en sekser";
+            break;
+        default:
+            output.innerText = "NaN";
+            break;
+    }
+
+    console.log(cointoss);
+}
+
+function printSumOfNumbers()
+{
+    let input = prompt("Indtast et positivt heltal");
+
+    for(i = 1, sum = 0; i <= input; i++)
+    {        
+        if(i % 7 == 0) continue;
+        sum += i;
+    }
+
+    console.log("Summen af alle tal op til og med " + input + " er " + sum);
+}
