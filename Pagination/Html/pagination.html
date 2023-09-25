@@ -1,0 +1,44 @@
+<head>
+    <link rel="stylesheet" href="/Pagination/CSS/styles.css">
+</head>
+
+<body>
+    <div class="center">
+        <div>
+            <nav>
+                <ul>
+                    <li class="navbar">
+                        <a href="/Pagination/Html/pagination.html">Home</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <h1>Movie list</h1>
+        <button id="openModalButton">Add new movie</button>
+        <br><br>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="closeModal">&times;</span>
+                <h2>Add new movie</h2>
+                <form>
+                    <label class="formItems">Title</label>
+                    <input id="title" type="text">
+                    <label class="formItems">Director</label>
+                    <input id="director" type="text">
+                    <label class="formItems">Release</label>
+                    <input id="release" type="text">
+                    <label class="formItems">Starring</label>
+                    <input id="starring" type="text">
+                </form>
+                <button onclick="addMovie()">Add movie</button>
+            </div>
+        </div>
+        <ul id="tableList">
+        </ul>
+        <button id="prevButton">Prev</button>
+        <button id="nextButton">Next</button>
+    </div>
+</body>
+<footer>
+    <script src="/Pagination/JS/script.js"></script>
+</footer>

@@ -1,0 +1,6 @@
+Når brugeren går ind på siden ville brugeren kunne taste 3 tal ind. 
+(dette kan gøres gennem en form eller prompt)
+Når brugeren har tastet de 3 tal skal programmet tjekke hvilket af de
+3 tal der er størst genenm en sammenlignings operator.
+Der skal også en bruges en if/else, switch eller tertiary operator til denne sammenligning.
+Så retuneres eller udskrives på skærmen: "tal x er størst" eller noget i den stil.
