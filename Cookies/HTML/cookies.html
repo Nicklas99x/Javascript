@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" href="/Cookies/CSS/styles.css">
+    <script src="/Cookies/JS/script.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <h2>Velkommen</h2>
+        <p>Velkommen</p>
+        <input type="text" id="nameInput" placeholder="Indtast dit navn">
+        <input type="text" id="hobbyInput" placeholder="Indtast din hobby">
+        <button onclick="gemNavnOgHobby()">Gem navn og hobby</button>
+        <button onclick="sletNavnOgHobby()">Slet navn og hobby</button>
+        <br><br>
+        <h1>Cookie om brugeren</h1>
+        <div id="userInfo"></div>
+        <button onclick="gemInformation()">Gem information</button>
+        <button onclick="sletCookie()">Slet cookie</button>
+        <br><br>
+        <h1>Cookies tilladelse</h1>
+        <div id="userInfo">Vil du tillade denne side at gemme cookies?</div>
+        <button onclick="tilladCookies()">Ja</button>
+        <button onclick="afvisCookies()">Nej</button>
+    </div>
+</body>
