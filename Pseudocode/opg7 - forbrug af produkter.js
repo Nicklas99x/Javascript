@@ -1,76 +1,84 @@
-let forbrugStr = "Code,Product,Percentage,CAN,popcorn,90,CAN,potato,99,CAN,rice,80,CAN,quinoa,20,CAN,maple syrup,90,CAN,taco,30,USA,popcorn,99,USA,potato,99,USA,rice,80,USA,quinoa,40,USA,taco,50,USA,maple syrup,40,MEX,popcorn,60,MEX,potato,60,MEX,rice,90,MEX,quinoa,80,MEX,maple syrup,5,MEX,taco,96";
-let landeStr = "Code,Name,Population,CAN,Canada,37000000,USA,United States of America,330000000,MEX,Mexico,129000000";
+//Starter data
+let forbrugStr="Code,Product,Percentage,CAN,popcorn,90,CAN,potato,99,CAN,rice,80,CAN,quinoa,20,CAN,maple syrup,90,CAN,taco,30,USA,popcorn,99,USA,potato,99,USA,rice,80,USA,quinoa,40,USA,taco,50,USA,maple syrup,40,MEX,popcorn,60,MEX,potato,60,MEX,rice,90,MEX,quinoa,80,MEX,maple syrup,5,MEX,taco,96";
+let landeStr="Code,Name,Population,CAN,Canada,37000000,USA,United States of America,330000000,MEX,Mexico,129000000";
 
-// Funktion for at konvertere CSV-strenge til tabeller
-function csvToTable(csvStr) {
-  const lines = csvStr.split('\n');
-  const header = lines[0].split(',');
-  const table = [];
+//Behandel csv'erne
+let consumerArray;
+let countryArray;
 
-  for (let i = 1; i < lines.length; i++) {
-    const row = lines[i].split(',');
-    const entry = {};
+//Gem data
+let consumerTable = [];
+let countryTable = [];
+//Brug til print
+let list = [];
 
-    for (let j = 0; j < header.length; j++) {
-      entry[header[j]] = row[j];
-    }
-
-    table.push(entry);
-  }
-
-  console.log("1" + lines);
-  console.log("2" + header);
-  console.log("3" + table);
-
-  return table;
+//lav csv filerne om til 2 arrays så de kan bearbejdes
+function dataProcessing() {
+    consumerArray = Array.from(forbrugStr.split(","));
+    countryArray = Array.from(landeStr.split(","));
 }
 
-// Konverter CSV-strengene til tabeller
-const forbrugTable = csvToTable(forbrugStr);
-const landeTable = csvToTable(landeStr);
-
-// Funktion for at beregne forbrug pr. produkt og sortere det i faldende rækkefølge
-// ...
-
-// Funktion for at beregne forbrug pr. produkt og sortere det i faldende rækkefølge
-function beregnForbrug(forbrugTable, landeTable) {
-    const result = {};
-  
-    for (let i = 0; i < forbrugTable.length; i++) {
-      const entry = forbrugTable[i];
-      const produkt = entry.Product;
-      const landekode = entry.Code.trim(); // Fjern eventuelle ekstra mellemrum
-      const procentdel = parseInt(entry.Percentage);
-  
-      if (!result[produkt]) {
-        result[produkt] = 0;
-      }
-  
-      // Find befolkningstal for det pågældende land
-      const land = landeTable.find(land => land.Code === landekode);
-      const befolkning = parseInt(land.Population);
-  
-      // Beregn antallet af forbrugere for dette produkt i dette land
-      const forbrugere = (befolkning * procentdel) / 100;
-  
-      // Tilføj antallet af forbrugere til resultatet
-      result[produkt] += forbrugere;
+//Der skal laves et array over forbrug af hver ting fra hvert land dette reulterer i 18 arrays
+function conArrInit() {
+    
+    for (i = 0; i < consumerArray.length; i+=3) {
+        let tempArr = [consumerArray[i], consumerArray[i+1], consumerArray[i+2]];
+        consumerTable.push(tempArr);
     }
-  
-    // Sorter resultatet i faldende rækkefølge
-    const sorteretResultat = Object.entries(result).sort((a, b) => b[1] - a[1]);
-  
-    return sorteretResultat;
-  }
-
-// Beregn forbrug og få resultatet
-const resultat = beregnForbrug(forbrugTable, landeTable);
-
-console.log("80" + resultat);
-
-// Udskriv resultatet
-console.log("Produkt\t\tAntal Forbrugere");
-console.log("-----------------------------");
-for (const [produkt, antal] of resultat) {
-  console.log(`${produkt}\t\t${antal}`);
 }
+
+//Lav arrays for lande med landekoder (der der 3 forskellige lande. Mexico, Canada og USA)
+function countryArrInit() {
+
+for (i = 0; i < countryArray.length; i+=3) {
+    let tempArray = [countryArray[i], countryArray[i+1], countryArray[i+2]];
+    countryTable.push(tempArray);
+}
+}
+
+
+//Beregn hvor meget mad der forbruges. Tager 2 parametre. 
+//Først index i den første tabel og så hvilken mad der skal regnes forbrug på
+function consumptionCounter(x, name) {
+    //j is used to access data from the second table
+    let j = 1;
+    //initializing amount, which is to be used to sum up the three countries' consumption.
+    let amount = 0;
+    
+    //Checks the three amounts of consumption in % within the first table, and calculates it based 
+    //on their population.
+    for (i = x; i < consumerTable.length; i+= 6) {
+        //sums the different countries consumptions
+        amount += (consumerTable[i][2]* countryTable[j][2])/100;
+        //moves one row down in the second table
+        j++;  
+    }
+    //saves this object in an array, so we can sort it descendigly later
+    list.push({name, amount});
+}
+
+//Udskriv forbrug a mad i descneding order
+function printConsumption() {
+    consumptionCounter(1, "popcorn");
+    consumptionCounter(2, "potato");
+    consumptionCounter(3, "rice");
+    consumptionCounter(4, "quinoa");
+    consumptionCounter(5, "maple syrup");
+    consumptionCounter(6, "taco");
+
+    // Sorts the list to descending
+    list.sort((a, b) => b.amount - a.amount);
+
+    // Prints the sorted list
+    list.forEach(item => {
+        console.log(`${item.amount} people ate ${item.name} in all the countries combined`);
+    });
+}
+
+//invoke de 4 functions lavet for at aktivere programmet
+dataProcessing();
+conArrInit();
+countryArrInit();
+printConsumption();
+
+
