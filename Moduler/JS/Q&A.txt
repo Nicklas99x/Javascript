@@ -1,0 +1,4 @@
+Hvad er dit navn?
+Hvor gammel er du?
+Hvilken uddannelse har du?
+Har du haft en god ferie?
