@@ -55,3 +55,69 @@ io.on('connection', (socket) => {
 server.listen(3000, () => {
   console.log('Server started on http://localhost:3000');
 });
+
+// Opret en stak med kort (værdier 2-10 og billedkort)
+function opretKortstok() {
+    const kortstok = [];
+    const korttyper = ['Hjerter', 'Ruder', 'Klør', 'Spar'];
+    const kortværdier = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'Knægt', 'Dame', 'Konge', 'Es'];
+
+    for (let type of korttyper) {
+        for (let værdi of kortværdier) {
+            kortstok.push({ type, værdi });
+        }
+    }
+
+    return kortstok;
+}
+
+// Træk et tilfældigt kort fra stakken
+function trækKort(stak) {
+    const tilfældigtIndex = Math.floor(Math.random() * stak.length);
+    const trukketKort = stak.splice(tilfældigtIndex, 1)[0];
+    return trukketKort;
+}
+
+// Beregn den samlede værdi af en hånd
+function beregnHåndVærdi(hånd) {
+    let værdi = 0;
+    let antalEs = 0;
+
+    for (let kort of hånd) {
+        if (kort.værdi === 'Es') {
+            værdi += 11;
+            antalEs++;
+        } else if (['Knægt', 'Dame', 'Konge'].includes(kort.værdi)) {
+            værdi += 10;
+        } else {
+            værdi += parseInt(kort.værdi);
+        }
+    }
+
+    // Justér for Es, hvis nødvendigt
+    while (antalEs > 0 && værdi > 21) {
+        værdi -= 10;
+        antalEs--;
+    }
+
+    return værdi;
+}
+
+// Implementer spillogik og afgør resultatet
+function spilBlackjack() {
+    const kortstok = opretKortstok();
+    const spillerHånd = [trækKort(kortstok), trækKort(kortstok)];
+    const dealerHånd = [trækKort(kortstok), trækKort(kortstok)];
+
+    // Beregn værdien af spillerens hånd
+    const spillerVærdi = beregnHåndVærdi(spillerHånd);
+    
+    // Din spillogik her...
+
+    return resultat; // Returnér resultatet af spillet (f.eks. "spiller vandt", "dealer vandt", "uafgjort")
+}
+
+// Eksempel på brug af funktionen
+const resultat = spilBlackjack();
+console.log(resultat);
+

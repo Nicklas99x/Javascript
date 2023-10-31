@@ -1,15 +1,27 @@
-const canvas = document.getElementById('gameCanvas');
-const ctx = canvas.getContext('2d');
-
+// Opret en WebSocket-forbindelse til serveren
 const socket = io();
 
-// Lyt til beskeder fra serveren
-socket.on('all-players', (players) => {
-    // Initialiser spillet med spillere, der er modtaget fra serveren
-    // Implementer kode til at tegne spillere på canvas
+// Lyt efter beskeder fra serveren
+socket.on('spilOpdatering', (data) => {
+    // Opdater spiltilstand baseret på data fra serveren
+    opdaterSpiltilstand(data);
 });
 
-socket.on('update', (players) => {
-    // Opdater spillet med opdaterede spillerpositioner fra serveren
-    // Implementer kode til at opdatere og tegne spillere på canvas
+// Lyt til knappen "Træk kort" og send anmodning til serveren
+document.getElementById('trækKort').addEventListener('click', () => {
+    socket.emit('trækKortAnmodning');
 });
+
+// Funktion til at opdatere spiltilstand på klienten
+function opdaterSpiltilstand(data) {
+    // Opdater spillerens og dealerens hænder på skærmen
+    document.getElementById('spillerHånd').textContent = `Spillerens Hånd: ${data.spillerHånd}`;
+    document.getElementById('dealerHånd').textContent = `Dealerens Hånd: ${data.dealerHånd}`;
+
+    // Vis resultatet, hvis spillet er afsluttet
+    if (data.spilAfgjort) {
+        document.getElementById('resultat').textContent = `Resultat: ${data.resultat}`;
+    } else {
+        document.getElementById('resultat').textContent = '';
+    }
+}
