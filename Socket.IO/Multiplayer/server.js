@@ -17,16 +17,38 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(publicPath, 'index.html')); // Opdater til din filnavn
 });
 
-io.on('connection', (socket) => {
-  console.log('A user connected');
+const players = [];
 
-  socket.on('text-update', (data) => {
-    // Broadcast den opdaterede tekst til alle tilsluttede klienter
-    socket.broadcast.emit('update-text', data);
+io.on('connection', (socket) => {
+  console.log('A player connected');
+  
+  // Opret en ny spiller og tilføj den til listen
+//   const player = { id: socket.id, x: canvas.width / 2, y: canvas.height - 30 };
+//   players.push(player);
+
+  // Send alle spillere til den nyligt tilsluttede spiller
+  socket.emit('all-players', players);
+
+  // Lyt til spilleropdateringer fra klienten
+  socket.on('update', (data) => {
+    // Find og opdater den korrekte spiller
+    const updatedPlayer = players.find((p) => p.id === socket.id);
+    if (updatedPlayer) {
+      updatedPlayer.x = data.x;
+      updatedPlayer.y = data.y;
+    }
+    
+    // Broadcast opdateringer til alle spillere
+    io.emit('update', players);
   });
 
   socket.on('disconnect', () => {
-    console.log('User disconnected');
+    console.log('A player disconnected');
+    // Fjern den afbrudte spiller fra listen
+    const index = players.findIndex((p) => p.id === socket.id);
+    if (index !== -1) {
+      players.splice(index, 1);
+    }
   });
 });
 

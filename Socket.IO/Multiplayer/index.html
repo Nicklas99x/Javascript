@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Realtime Text Editor</title>
+  <title>Multiplayer Game</title>
 </head>
 <body>
-  <textarea id="text-editor" rows="10" cols="40"></textarea>
-
-  <script src="/socket.io/socket.io.js"></script>
-  <script>
-    const socket = io();
-    const textEditor = document.getElementById('text-editor');
-
-    textEditor.addEventListener('input', () => {
-      const updatedText = textEditor.value;
-      socket.emit('text-update', updatedText);
-    });
-
-    socket.on('update-text', (data) => {
-      textEditor.value = data;
-    });
-  </script>
+    <div>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="space-invaders.js"></script>
 </body>
 </html>
