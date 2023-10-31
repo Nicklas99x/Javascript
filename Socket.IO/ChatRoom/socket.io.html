@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.IO</title>
+</head>
+<body>
+    <h1>Multi-Room Chat</h1>
+    <div>
+      <label for="roomName">Room Name: </label>
+      <input type="text" id="roomName">
+      <button onclick="joinRoom()">Join Room</button>
+    </div>
+    <div>
+      <label for="message">Message: </label>
+      <input type="text" id="message">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    <div id="chat"></div>
+    <script src="/Typescript\node_modules\socket.io\client-dist\socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
