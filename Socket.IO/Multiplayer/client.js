@@ -24,14 +24,21 @@ function opdaterSpiltilstand(data) {
     } else {
         document.getElementById('resultat').textContent = '';
     }
+
+    // Opdater spillerens og dealerens kort på skærmen
+    opdaterKort('spillerKort', data.spillerKort);
+    opdaterKort('dealerKort', data.dealerKort);
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const trækKortKnap = document.getElementById('trækKort');
-  
-    trækKortKnap.addEventListener('click', function() {
-      // Send en anmodning til serveren om at trække 2 kort
-      socket.emit('træk-2-kort');
+// Funktion til at opdatere kortene på skærmen
+function opdaterKort(elementId, kortArray) {
+    const kortElement = document.getElementById(elementId);
+    kortElement.innerHTML = `${elementId === 'spillerKort' ? 'Spillerens' : 'Dealerens'} Kort: `;
+    
+    // Tilføj hvert kort til elementet
+    kortArray.forEach((kort) => {
+        const kortVisning = document.createElement('span');
+        kortVisning.textContent = `${kort.type} ${kort.værdi}, `;
+        kortElement.appendChild(kortVisning);
     });
-  });
-  
+}

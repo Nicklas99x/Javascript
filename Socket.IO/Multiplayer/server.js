@@ -19,6 +19,8 @@ app.get('/', (req, res) => {
 
 const players = [];
 
+const kortstok = opretKortstok();
+
 io.on('connection', (socket) => {
   console.log('A player connected');
   
