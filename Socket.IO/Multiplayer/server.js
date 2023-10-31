@@ -22,9 +22,14 @@ const players = [];
 io.on('connection', (socket) => {
   console.log('A player connected');
   
-  // Opret en ny spiller og tilføj den til listen
-//   const player = { id: socket.id, x: canvas.width / 2, y: canvas.height - 30 };
-//   players.push(player);
+  socket.on('træk-2-kort', () => {
+    // Træk 2 kort fra kortstokken
+    const trukketKort1 = trækKort(kortstok);
+    const trukketKort2 = trækKort(kortstok);
+
+    // Send de trukne kort tilbage til klienten
+    socket.emit('2-trukne-kort', [trukketKort1, trukketKort2]);
+  });
 
   // Send alle spillere til den nyligt tilsluttede spiller
   socket.emit('all-players', players);

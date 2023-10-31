@@ -25,3 +25,13 @@ function opdaterSpiltilstand(data) {
         document.getElementById('resultat').textContent = '';
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const trækKortKnap = document.getElementById('trækKort');
+  
+    trækKortKnap.addEventListener('click', function() {
+      // Send en anmodning til serveren om at trække 2 kort
+      socket.emit('træk-2-kort');
+    });
+  });
+  
