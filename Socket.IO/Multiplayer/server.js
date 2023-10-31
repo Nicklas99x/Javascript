@@ -111,8 +111,23 @@ function spilBlackjack() {
 
     // Beregn værdien af spillerens hånd
     const spillerVærdi = beregnHåndVærdi(spillerHånd);
+
+    // Beregn værdien af dealerens hånd
+    const dealerVærdi = beregnHåndVærdi(dealerHånd);
     
     // Din spillogik her...
+    let resultat;
+    if (spillerVærdi > 21) {
+        resultat = 'dealer vandt';
+    } else if (dealerVærdi > 21) {
+        resultat = 'spiller vandt';
+    } else if (spillerVærdi > dealerVærdi) {
+        resultat = 'spiller vandt';
+    } else if (spillerVærdi < dealerVærdi) {
+        resultat = 'dealer vandt';
+    } else {
+        resultat = 'uafgjort';
+    }
 
     return resultat; // Returnér resultatet af spillet (f.eks. "spiller vandt", "dealer vandt", "uafgjort")
 }
