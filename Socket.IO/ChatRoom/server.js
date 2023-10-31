@@ -1,41 +1,45 @@
+// Importér nødvendige moduler
+const express = require('express');
 const http = require('http');
-const server = http.createServer();
-const io = require('socket.io')(server);
+const socketIo = require('socket.io');
 
-const rooms = {};
+// Opret en Express.js-app
+const app = express();
+const server = http.createServer(app);
+const io = socketIo(server);
 
+// Server statiske filer fra "public" mappen
+app.use(express.static(__dirname + '/public'));
+
+// Opret en liste til opbevaring af brugernavne
+const usernames = {};
+
+// Når en klient forbinder
 io.on('connection', (socket) => {
-    console.log('A new user joined');
+  console.log('A user connected');
 
-    socket.on('joinRoom', (roomName) => {
-        if(!rooms[roomName]){
-            rooms[roomName] = [];
-        }
+  // Når en bruger sender en besked
+  socket.on('chat message', (msg) => {
+    io.emit('chat message', `${usernames[socket.id]}: ${msg}`);
+  });
 
-        rooms[roomName].push(socket);
-        socket.join(roomName);
-    })
+  // Når en bruger tilslutter sig og vælger et brugernavn
+  socket.on('set username', (username) => {
+    usernames[socket.id] = username;
+    io.emit('user connected', `${username} has joined the chat`);
+  });
 
-    socket.on('chatMessage', (data) => {
-        const { room, message } = data;
-        io.to(room).emit('message', message);
-      });
-
-    socket.on('disconnect', () => {
-    for(const room in rooms) {
-        const index = rooms[room].indexOf(socket);
-        if(index !== -1) {
-            rooms[room].splice(index, 1);
-
-            if(rooms[room].length === 0) {
-                delete rooms[room];
-            }
-        }
-    }
-        console.log('A user disconnected');
-    });
+  // Når en bruger frakobler
+  socket.on('disconnect', () => {
+    const username = usernames[socket.id];
+    delete usernames[socket.id];
+    io.emit('user disconnected', `${username} has left the chat`);
+    console.log('A user disconnected');
+  });
 });
 
-server.listen(8080, () => {
-    console.log('Server is running on port 8080');
-  });
+// Start serveren på port 3000
+const port = 3000;
+server.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});

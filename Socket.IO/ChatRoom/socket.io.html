@@ -1,23 +1,45 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Socket.IO</title>
+  <title>Chat Application</title>
+  <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
-    <h1>Multi-Room Chat</h1>
-    <div>
-      <label for="roomName">Room Name: </label>
-      <input type="text" id="roomName">
-      <button onclick="joinRoom()">Join Room</button>
-    </div>
-    <div>
-      <label for="message">Message: </label>
-      <input type="text" id="message">
-      <button onclick="sendMessage()">Send</button>
-    </div>
-    <div id="chat"></div>
-    <script src="\node_modules\socket.io\client-dist\socket.io.js"></script>
-    <script src="client.js"></script>
-  </body>
+  <ul id="messages"></ul>
+  <input id="message" autocomplete="off" /><button onclick="sendMessage()">Send</button>
+  <input id="username" placeholder="Username" /><button onclick="setUsername()">Set Username</button>
+
+  <script>
+    const socket = io();
+    
+    function sendMessage() {
+      const message = document.getElementById('message').value;
+      socket.emit('chat message', message);
+      document.getElementById('message').value = '';
+    }
+
+    function setUsername() {
+      const username = document.getElementById('username').value;
+      socket.emit('set username', username);
+    }
+
+    socket.on('chat message', (msg) => {
+      const li = document.createElement('li');
+      li.textContent = msg;
+      document.getElementById('messages').appendChild(li);
+    });
+
+    socket.on('user connected', (msg) => {
+      const li = document.createElement('li');
+      li.textContent = msg;
+      document.getElementById('messages').appendChild(li);
+    });
+
+    socket.on('user disconnected', (msg) => {
+      const li = document.createElement('li');
+      li.textContent = msg;
+      document.getElementById('messages').appendChild(li);
+    });
+  </script>
+</body>
 </html>
