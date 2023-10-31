@@ -1,26 +1,35 @@
+const express = require('express');
 const http = require('http');
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('WebSocket Server is running');
-});
+const socketIo = require('socket.io');
+const path = require('path');
 
-const io = require('socket.io')(server);
+const app = express();
+const server = http.createServer(app);
+const io = socketIo(server);
+
+const publicPath = path.join(__dirname, '/');
+
+// Server statiske filer fra rodmappen
+app.use(express.static(publicPath));
+
+// Rute for rodstien, der serverer din HTML-fil
+app.get('/', (req, res) => {
+  res.sendFile(path.join(publicPath, 'index.html')); // Opdater til din filnavn
+});
 
 io.on('connection', (socket) => {
   console.log('A user connected');
 
-  // Handle incoming messages
-  socket.on('message', (data) => {
-    console.log('Message received: ', data);
-    io.emit('message', data); // Broadcast the message to all connected clients
+  socket.on('text-update', (data) => {
+    // Broadcast den opdaterede tekst til alle tilsluttede klienter
+    socket.broadcast.emit('update-text', data);
   });
 
   socket.on('disconnect', () => {
-    console.log('A user disconnected');
+    console.log('User disconnected');
   });
 });
 
-const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+server.listen(3000, () => {
+  console.log('Server started on http://localhost:3000');
 });
