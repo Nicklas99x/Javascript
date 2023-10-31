@@ -2,14 +2,23 @@
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
+const path = require('path');
 
 // Opret en Express.js-app
 const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
-// Server statiske filer fra "public" mappen
-app.use(express.static(__dirname + '/public'));
+// Brug __dirname til at få stien til den aktuelle mappe
+const publicPath = path.join(__dirname, '/');
+
+// Server statiske filer fra rodmappen
+app.use(express.static(publicPath));
+
+// Rute for rodstien, der serverer din HTML-fil
+app.get('/', (req, res) => {
+  res.sendFile(path.join(publicPath, 'socket.io.html')); // Opdater til din filnavn
+});
 
 // Opret en liste til opbevaring af brugernavne
 const usernames = {};
