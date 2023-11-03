@@ -1,0 +1,6 @@
+textarea {
+    width: 800px;
+    height: 200px; /* Ændre højden efter behov */
+    padding: 10px;
+    font-size: 16px;
+  }

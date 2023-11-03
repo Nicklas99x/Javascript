@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spil med modstander-simulering</title>
+</head>
+<body>
+    <h1>Spil med modstander-simulering</h1>
+    <button id="startButton">Start Simulation</button>
+    <button id="stopButton">Stop Simulation</button>
+    <p>Status: <span id="status">Inaktiv</span></p>
+    <div id="output"></div>
+
+    <script>
+        const startButton = document.getElementById("startButton");
+        const stopButton = document.getElementById("stopButton");
+        const statusSpan = document.getElementById("status");
+        const outputDiv = document.getElementById("output");
+        let worker = null;
+
+        startButton.addEventListener("click", () => {
+            // Opret en ny web worker og start simuleringen
+            worker = new Worker("worker.js");
+            worker.onmessage = (event) => {
+                outputDiv.textContent += event.data + "\n";
+            };
+
+            statusSpan.textContent = "Kører";
+        });
+
+        stopButton.addEventListener("click", () => {
+            // Terminer web workeren og stop simuleringen
+            if (worker) {
+                worker.terminate();
+                worker = null;
+                statusSpan.textContent = "Inaktiv";
+            }
+        });
+    </script>
+</body>
+</html>
