@@ -29,6 +29,9 @@ io.on('connection', (socket) => {
     const trukketKort1 = trækKort(kortstok);
     const trukketKort2 = trækKort(kortstok);
 
+    console.log('Trukket kort 1:', trukketKort1);
+    console.log('Trukket kort 2:', trukketKort2);
+
     // Send de trukne kort tilbage til klienten
     socket.emit('2-trukne-kort', [trukketKort1, trukketKort2]);
   });
