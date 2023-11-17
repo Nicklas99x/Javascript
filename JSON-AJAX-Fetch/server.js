@@ -20,8 +20,16 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Multer configuration for file uploads
-const upload = multer({ dest: 'uploads/' });
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, 'uploads/'); // Angiver uploads-mappen som destinationsmappen
+  },
+  filename: function (req, file, cb) {
+    cb(null, file.originalname); // Gemmer filen med dens originale navn
+  }
+});
+
+const upload = multer({ storage: storage });
 
 // Endpoint for uploading a file
 app.post('/upload', upload.single('file'), (req, res) => {
@@ -41,7 +49,27 @@ app.get('/download/:filename', (req, res) => {
   }
 });
 
-// Endpoint for comparing uploaded and downloaded files
+function getFileBytes(filePath) {
+  const fileData = fs.readFileSync(filePath);
+  const fileBytes = [...fileData];
+  return fileBytes;
+}
+
+// Sammenlign funktion for at sammenligne to sæt af bytes
+function compareBytes(file1Bytes, file2Bytes) {
+  if (file1Bytes.length !== file2Bytes.length) {
+    return false; // Hvis længden ikke er den samme, er filerne forskellige
+  }
+
+  for (let i = 0; i < file1Bytes.length; i++) {
+    if (file1Bytes[i] !== file2Bytes[i]) {
+      return false; // Hvis et element ikke matcher, er filerne forskellige
+    }
+  }
+
+  return true; // Hvis alle bytes matcher, er filerne ens
+}
+
 app.get('/compare/:filename', (req, res) => {
   const uploadedFilePath = path.join(__dirname, 'uploads/', req.params.filename);
   const downloadedFilePath = path.join(__dirname, 'downloads/', req.params.filename);
@@ -50,10 +78,11 @@ app.get('/compare/:filename', (req, res) => {
     return res.status(404).send('Files not found.');
   }
 
-  const uploadedData = fs.readFileSync(uploadedFilePath);
-  const downloadedData = fs.readFileSync(downloadedFilePath);
+  const uploadedFileBytes = getFileBytes(uploadedFilePath);
+  const downloadedFileBytes = getFileBytes(downloadedFilePath);
 
-  if (uploadedData.equals(downloadedData)) {
+  const areEqual = compareBytes(uploadedFileBytes, downloadedFileBytes);
+  if (areEqual) {
     res.status(200).send('Files are identical.');
   } else {
     res.status(200).send('Files are different.');

@@ -17,8 +17,16 @@
     </select>
 
     <button onclick="downloadSelectedFile()">Download File</button>
+    <br>
+    <img id="downloadedImage" src="">
 
-    <button onclick="compareFiles()">Compare Files</button>
+
+    <h2>Sammenlign filer</h2>
+    <select id="compareSelect">
+        <option value="Denmark.jpg">Denmark.jpg</option>
+        <option value="Brunsviger.jpg">Brunsviger.jpg</option>
+    </select>
+    <button onclick="compareFiles('her skal stien til hvilken fil du ville sammenligne være')">Compare Files</button>
 
     <script>
         async function uploadFile() {
@@ -61,10 +69,9 @@
                 const response = await fetch(`http://localhost:3000/download/${filename}`);
                 if(response.ok){
                     const blob = await response.blob();
-                    const fileContent = await blob.text();
 
-                    console.log(fileContent);
-                    alert('Succes', fileContent);
+                    const objectURL = URL.createObjectURL(blob);
+                    document.getElementById("downloadedImage").src = objectURL;
                 } else{
                     alert('Failed to download file');
                 }
@@ -76,8 +83,22 @@
         }
 
         async function compareFiles() {
-            // Implement file comparison logic here
+            const select = document.getElementById('compareSelect');
+            const selectedFileName = select.options[select.selectedIndex].value;
+
+            try {
+                const response = await fetch(`http://localhost:3000/compare/${selectedFileName}`);
+                if (response.ok) {
+                    const result = await response.text();
+                    console.log('Comparison result:', result);
+                    alert(result);
+                } else {
+                    console.log('Failed to compare files');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            }
         }
-        </script>
+    </script>
 </body>
 </html>
