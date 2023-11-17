@@ -7,50 +7,77 @@
 <body>
     <h1>File Upload and Download</h1>
 
-  <input type="file" id="fileInput">
-  <button onclick="uploadFile()">Upload File</button>
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Upload File</button>
 
-  <button onclick="downloadFile()">Download File</button>
+    <h2>Vaelg fil du ville downloade</h2>
+    <select id="fileSelect">
+        <option value="Denmark.jpg">Denmark.jpg</option>
+        <option value="Brunsviger.jpg">Brunsviger.jpg</option>
+    </select>
 
-  <button onclick="compareFiles()">Compare Files</button>
+    <button onclick="downloadSelectedFile()">Download File</button>
 
-  <script>
-    async function uploadFile() {
-        const fileInput = document.getElementById('fileInput');
-        const file = fileInput.files[0];
+    <button onclick="compareFiles()">Compare Files</button>
 
-        if (!file) {
-            alert('Please select a file.');
-            return;
-        }
+    <script>
+        async function uploadFile() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
 
-        const formData = new FormData();
-        formData.append('file', file);
-
-        try {
-            const response = await fetch('http://localhost:3000/upload', { // Her ændres til serverens URL
-                method: 'POST',
-                body: formData
-            });
-            if (response.ok) {
-                alert('File uploaded successfully.');
-            } else {
-                alert('Failed to upload file.');
+            if (!file) {
+                alert('Please select a file.');
+                return;
             }
 
-        } catch (error) {
-            console.error('Error:', error);
-            alert('An error occurred.');
-        }
-    }
-    
-    async function downloadFile() {
-        // Implement downloading file logic here
-    }
+            const formData = new FormData();
+            formData.append('file', file);
 
-    async function compareFiles() {
-        // Implement file comparison logic here
-    }
-    </script>
+            try {
+                const response = await fetch('http://localhost:3000/upload', { // Her ændres til serverens URL
+                    method: 'POST',
+                    body: formData
+                });
+                if (response.ok) {
+                    alert('File uploaded successfully.');
+                } else {
+                    alert('Failed to upload file.');
+                }
+
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred.');
+            }
+        }
+        
+        async function downloadSelectedFile() {
+            const select = document.getElementById('fileSelect');
+            const selectedFileName = select.options[select.selectedIndex].value;
+            downloadFile(selectedFileName);
+        }
+
+        async function downloadFile(filename) {
+            try{
+                const response = await fetch(`http://localhost:3000/download/${filename}`);
+                if(response.ok){
+                    const blob = await response.blob();
+                    const fileContent = await blob.text();
+
+                    console.log(fileContent);
+                    alert('Succes', fileContent);
+                } else{
+                    alert('Failed to download file');
+                }
+            }
+            catch(error){
+                console.log('Error:', error);
+                alert('An error occured');
+            }
+        }
+
+        async function compareFiles() {
+            // Implement file comparison logic here
+        }
+        </script>
 </body>
 </html>
