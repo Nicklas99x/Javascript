@@ -6,6 +6,8 @@ function checkDanishPhoneNumber(input) {
     return regex.test(input);
 }
 
+module.exports = { checkDanishPhoneNumber };
+
 // Prompt brugeren for input
 const userInput = prompt("Indtast et dansk telefonnummer (format: XXXXXXXX, XXXX XXXX eller XX XX XX XX):");
 
