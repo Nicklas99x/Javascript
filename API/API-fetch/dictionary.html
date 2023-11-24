@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const wordToSearch = 'time';
+        const wordToSearch2 = 'time';
+
+        fetch('http://localhost:3000/hentOrdFraEndpoint1/' + wordToSearch)
+            .then(response => response.json())
+            .then(data => console.log('Data fra første endpoint:', data))
+            .catch(error => console.error('Fejl:', error));
+
+        fetch('http://localhost:3000/hentOrdFraEndpoint2/' + wordToSearch2)
+            .then(response => response.text())
+            .then(data => console.log('Data fra andet endpoint:', data))
+            .catch(error => console.error('Fejl:', error));
+    </script>
+<script src="/API/API-fetch/script.js"></script>
+</body>
+</html>
