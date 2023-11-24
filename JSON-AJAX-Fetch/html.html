@@ -27,108 +27,108 @@
         <option value="Brunsviger.jpg">Brunsviger.jpg</option>
     </select>
     <button onclick="compareFiles('her skal stien til hvilken fil du ville sammenligne være')">Compare Files</button>
+<script>
+    async function uploadFile() {
+        const fileInput = document.getElementById('fileInput');
+        const file = fileInput.files[0];
 
-    <script>
-        async function uploadFile() {
-            const fileInput = document.getElementById('fileInput');
-            const file = fileInput.files[0];
-
-            if (!file) {
-                alert('Please select a file.');
-                return;
-            }
-
-            const formData = new FormData();
-            formData.append('file', file);
-
-            try {
-                const response = await fetch('http://localhost:3000/upload', { // Her ændres til serverens URL
-                    method: 'POST',
-                    body: formData
-                });
-                if (response.ok) {
-                    alert('File uploaded successfully.');
-                } else {
-                    alert('Failed to upload file.');
-                }
-
-            } catch (error) {
-                console.error('Error:', error);
-                alert('An error occurred.');
-            }
-        }
-        
-        async function downloadSelectedFile() {
-            const select = document.getElementById('fileSelect');
-            const selectedFileName = select.options[select.selectedIndex].value;
-            downloadFile(selectedFileName);
-        }
-
-        async function downloadFile(filename) {
-            try{
-                const response = await fetch(`http://localhost:3000/download/${filename}`);
-                if(response.ok){
-                    const blob = await response.blob();
-
-                    const objectURL = URL.createObjectURL(blob);
-                    document.getElementById("downloadedImage").src = objectURL;
-                } else{
-                    alert('Failed to download file');
-                }
-            }
-            catch(error){
-                console.log('Error:', error);
-                alert('An error occured');
-            }
-        }
-
-        async function compareFiles() {
-            const select = document.getElementById('compareSelect');
-    const selectedFileName = select.options[select.selectedIndex].value;
-
-    try {
-        const response = await fetch(`http://localhost:3000/download/${selectedFileName}`);
-        if (!response.ok) {
-            console.log('Failed to download file');
+        if (!file) {
+            alert('Please select a file.');
             return;
         }
 
-        const blob = await response.blob();
+        const formData = new FormData();
+        formData.append('file', file);
 
-        const reader = new FileReader();
-        reader.onload = async () => {
-            const fileBuffer = reader.result;
-            const hash = await crypto.subtle.digest('SHA-256', fileBuffer);
-            const hashArray = Array.from(new Uint8Array(hash));
-            const hashString = hashArray.map(byte => byte.toString(16).padStart(2, '0')).join('');
+        try {
+            const response = await fetch('http://localhost:3000/upload', { // Her ændres til serverens URL
+                method: 'POST',
+                body: formData
+            });
+            if (response.ok) {
+                alert('File uploaded successfully.');
+            } else {
+                alert('Failed to upload file.');
+            }
+
+        } catch (error) {
+            console.error('Error:', error);
+            alert('An error occurred.');
+        }
+    }
+        
+    async function downloadSelectedFile() {
+        const select = document.getElementById('fileSelect');
+        const selectedFileName = select.options[select.selectedIndex].value;
+        downloadFile(selectedFileName);
+    }
+
+    async function downloadFile(filename) {
+        try{
+            const response = await fetch(`http://localhost:3000/download/${filename}`);
+            if(response.ok){
+                const blob = await response.blob();
+
+                const objectURL = URL.createObjectURL(blob);
+                document.getElementById("downloadedImage").src = objectURL;
+            } else{
+                alert('Failed to download file');
+            }
+        }
+        catch(error){
+            console.log('Error:', error);
+            alert('An error occured');
+        }
+    }
+
+    async function compareFiles() {
+        const select = document.getElementById('compareSelect');
+        const selectedFileName = select.options[select.selectedIndex].value;
+
+        try {
+            const response = await fetch(`http://localhost:3000/download/${selectedFileName}`);
+            if (!response.ok) {
+                console.log('Failed to download file');
+                return;
+            }
+
+            const blob = await response.blob();
+
+            const reader = new FileReader();
+            reader.onload = async () => {
+                const fileBuffer = reader.result;
+                const hash = await crypto.subtle.digest('SHA-256', fileBuffer);
+                const hashArray = Array.from(new Uint8Array(hash));
+                const hashString = hashArray.map(byte => byte.toString(16).padStart(2, '0')).join('');
 
             // Send hash-værdien til serveren for at sammenligne
-            try {
-                const comparisonResponse = await fetch(`http://localhost:3000/compare/${selectedFileName}`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ hash: hashString })
-                });
+                try 
+                {
+                    const comparisonResponse = await fetch(`http://localhost:3000/compare/${selectedFileName}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                        },
 
-                if (comparisonResponse.ok) {
-                const result = await comparisonResponse.text();
-                console.log('Comparison result:', result);
-                alert(result);
-                } else {
-                console.log('Failed to compare files');
+                    body: JSON.stringify({ hash: hashString })});
+
+                    if (comparisonResponse.ok) {
+                        const result = await comparisonResponse.text();
+                        console.log('Comparison result:', result);
+                        alert(result);
+                    } else {
+                        console.log('Failed to compare files');
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
                 }
-            } catch (error) {
-                console.error('Error:', error);
-            }
-        };
-        
+            };
+
         reader.readAsArrayBuffer(blob);
         } catch (error) {
             console.log('Error:', error);
         }
     }
-    </script>
+</script>
 </body>
 </html>
