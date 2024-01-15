@@ -1,7 +1,7 @@
 const stringArray: string[] = [];
 
 function addStringToArray(x:number, y:number){
-    let sum:number = x + y;
+    let sum = x + y;
     let newString = `${x} + ${y} = ${sum}`
 
     stringArray.push(newString);
