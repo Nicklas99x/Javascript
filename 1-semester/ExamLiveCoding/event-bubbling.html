@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="ancestorElement">
+    <div id="grandParentElement">
+        <span id="parentElement">
+            <button id="childElement">Click me</button>
+        </span>
+    </div>    
+
+    <script>
+        var ancestorElement = document.getElementById("ancestorElement");
+        var grandParentElement = document.getElementById("grandParentElement");
+        var parentElement = document.getElementById("parentElement");
+        var childElement = document.getElementById("childElement");
+
+        ancestorElement.addEventListener('click', (event) => {
+            console.log('Body was clicked');
+        });
+        grandParentElement.addEventListener('click', (event) => {
+            console.log('Div was clicked');
+        });
+        parentElement.addEventListener('click', (event) => {
+            console.log('Span was clicked');
+        });
+        childElement.addEventListener('click', (event) => {
+            console.log('Button was clicked');
+            //event.stopPropagation();
+        });
+    </script>
+
+    <style>
+        body {
+            padding: 20px;
+            background-color: pink;
+        }
+        
+        div {
+            padding: 20px;
+            background-color: green;
+            width: max-content;
+        }
+        
+        span {
+            display: block;
+            padding: 20px;
+            background-color: blue;
+        }</style>
+</body>
+</html>
