@@ -9,6 +9,10 @@ cube = () => {
     alert("The cube has landed on " + cubeSides);
 }
 
+let multiplyTwoNumbers = function(x, y) {
+    return x * y;
+};
+
 function addHeader(){
     let y = prompt("Type in a header for the webpage");
     let x = "Lasagne";
