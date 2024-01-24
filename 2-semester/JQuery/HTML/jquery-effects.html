@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        /* Stil for #hidden-content for at give det en starttilstand */
+        #hidden-content {
+            display: none;
+            background-color: lightgray;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button id="toggle">Magisk knap</button>
+    <div id="hidden-content">
+        Dette er skjult indhold med en fade-effekt.
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('#toggle').click(function(){
+                $('#hidden-content').fadeToggle();
+            })
+        })
+    </script>
+</body>
+</html>

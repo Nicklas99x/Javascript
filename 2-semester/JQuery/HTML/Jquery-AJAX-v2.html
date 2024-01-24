@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div>
+        <label for="categoryDropdown">Vælg kategori:</label>
+        <select id="categoryDropdown">
+            <!-- Kategorioptioner vil blive tilføjet her dynamisk -->
+        </select>
+    </div>
+    <div>
+        <label for="subCategoryDropdown">Vælg underkategori:</label>
+        <select id="subCategoryDropdown">
+            <!-- Underkategorioptioner vil blive tilføjet her dynamisk -->
+        </select>
+    </div>
+    <div id="result-container"></div>
+    <script>
+        $(document).ready(function(){
+            //Api url
+            var categoryApiUrl = 'https://jsonplaceholder.typicode.com/posts';
+            // Api url for underkategorier (ændre dette til den relevante url)
+            var subCategoryApiUrl = 'https://jsonplaceholder.typicode.com';
+
+            //Ajax request
+            $.ajax({
+                url: categoryApiUrl,
+                method: 'GET',
+                dataType: 'json',
+                success: function(data){
+                    //Håndter et succesfuldt request
+                    populateDropdown('#categoryDropdown', data, 'title');
+                },
+                error: function(xhr, status, error) {
+                    //Håndter forfejlet request
+                    displayError(status, error);
+                }
+            });
+
+            $('#categoryDropdown').on('change', function(){
+                var selectedCategory = $(this).val(); //hoveddropdown kategori
+
+                $.ajax({
+                    url: subCategoryApiUrl + '/posts/' + selectedCategory + '/comments',
+                    method: "GET",
+                    dataType: "json",
+                    success: function(data){
+                        populateDropdown('#subCategoryDropdown', data, 'name');
+                    },
+                    error: function(xhr, status, error){
+                        displayError(status, error);
+                    }
+                })
+            })
+        })
+
+        //function til at vise resultat på siden
+        function displayResult(data){
+            var resultContainer = $('#result-container');
+            var postList = '<ul>';
+            //lav en liste over posts
+            $.each(data, function(index, post){
+                postList += '<li>' + post.name + '</li>';
+            });
+            postList += '</ul>';
+            //indsæt listen i dette html element #result-container
+            resultContainer.html(postList);
+        }
+        //function der viser fejl på siden
+        function displayError(status, error){
+            var resultContainer = $('#result-container');
+            resultContainer.html('<p>Fejl ved hentning af data: ' + status + ', ' + error + '</p>');
+        }
+        function populateDropdown(dropdownId, data, key) {
+            var dropdown = $(dropdownId);
+            dropdown.empty(); // Tøm dropdown for eksisterende indhold
+            $.each(data, function (index, item) {
+                dropdown.append($('<option>').text(item[key]).val(item.id));
+            });
+        }
+    </script>
+</body>
+</html>

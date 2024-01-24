@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="result-container"></div>
+    <script>
+        $(document).ready(function(){
+            //Api url
+            var apiUrl = 'https://jsonplaceholder.typicode.com/posts';
+
+            //Ajax request
+            $.ajax({
+                url: apiUrl,
+                method: 'GET',
+                dataType: 'json',
+                success: function(data){
+                    //Håndter et succesfuldt request
+                    displayResult(data);
+                },
+                error: function(xhr, status, error) {
+                    //Håndter forfejlet request
+                    displayError(status, error);
+                }
+            })
+        })
+
+        //function til at vise resultat på siden
+        function displayResult(data){
+            var resultContainer = $('#result-container');
+            var postList = '<ul>';
+            //lav en liste over posts
+            $.each(data, function(index, post){
+                postList += '<li>' + post.title + '</li>';
+            });
+            postList += '</ul>';
+            //indsæt listen i dette html element #result-container
+            resultContainer.html(postList);
+        }
+        //function der viser fejl på siden
+        function displayError(){
+            var resultContainer = $('#result-container');
+            resultContainer.html('<p>Fejl ved hentning af data: ' + status + ', ' + error + '</p>');
+        }
+    </script>
+</body>
+</html>
