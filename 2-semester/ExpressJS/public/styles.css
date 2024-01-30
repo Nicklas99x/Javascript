@@ -1,0 +1,66 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+  
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+  
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+  
+nav {
+    margin-top: 20px;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+  
+nav li {
+    margin: 0 15px;
+}
+  
+main {
+    padding: 20px 0;
+}
+  
+section {
+    margin-bottom: 20px;
+}
+  
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Centrer h1 og a tags */
+h1, nav a {
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: center; /* Sørg for at centrerer inline-elementer */
+    display: flex; /* Brug flex container */
+    justify-content: center; /* Centrer indholdet horisontalt */
+}
+  
+nav a {
+    margin: 0 15px;
+}

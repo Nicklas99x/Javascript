@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+  
+h2 {
+    text-align: center;
+    color: #007bff; /* Ændre farven efter behov */
+    margin-top: 20px;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+p {
+    text-align: center;
+    margin-top: 10px;
+    color: #555; /* Ændre farven efter behov */
+}
+
+.container {
+    text-align: center;
+    margin-top: 10px; /* Juster dette efter behov for at skabe plads mellem <p> og knappen */
+}
