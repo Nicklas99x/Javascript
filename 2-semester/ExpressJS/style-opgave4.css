@@ -1,0 +1,57 @@
+/* Reset nogle standardmarginer og padding */
+body, h1, ul, li, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+/* Centrerer alt indhold */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+/* Stil for h1-elementet */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+/* Stil for opgavelisten */
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+  
+/* Stil for hvert opgaveelement */
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+  
+/* Stil for knapper */
+button {
+    background-color: #4caf50; /* Grøn baggrundsfarve */
+    color: white; /* Hvid tekstfarve */
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+  
+/* Stil for knapper ved hover-effekt */
+button:hover {
+    background-color: #45a049; /* Mørkere grøn farve ved hover */
+}
+
+/* Stil for opgavetitler med maksimal bredde */
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    max-width: 200px; /* Juster bredden efter behov */
+    overflow: hidden;
+    white-space: normal;
+    text-overflow: ellipsis;
+}  

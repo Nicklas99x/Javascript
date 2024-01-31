@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/2-semester/ExpressJS/style-opgave4.css">
+    <style>
+        /* CSS-stil for opgaver med completed: true */
+        .completed {
+          text-decoration: line-through;
+        }
+      </style>
+</head>
+<body>
+    <div>
+        <h1>ToDo List</h1>
+  
+        <ul id="todo-list"></ul>
+    
+        <input type="text" id="task" placeholder="Add a new task">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+    <!--Use Jquery and reference other external scripts-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="/2-semester/ExpressJS/miniDB.js"></script>
+</body>
+</html>
