@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSON Client</title>
+</head>
+<body>
+
+<pre id="json-container"></pre>
+
+<script>
+  // Foretag en HTTP GET-anmodning til serveren
+  fetch('http://localhost:3000/json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Netværksfejl - status ' + response.status);
+      }
+      return response.json();
+    })
+    .then(data => {
+      // Formatér JSON-strengen med indrykning og linjeskift
+      const formattedJson = JSON.stringify(data, null, 2);
+
+      // Indsæt JSON i HTML-elementet med id 'json-container'
+      document.getElementById('json-container').innerText = formattedJson;
+    })
+    .catch(error => {
+      console.error('Fejl ved anmodning:', error.message);
+    });
+</script>
+
+</body>
+</html>
