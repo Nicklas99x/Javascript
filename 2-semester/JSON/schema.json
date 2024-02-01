@@ -1,0 +1,31 @@
+{
+    "$schema":"http://json-schema.org/draft-07/schema#",
+    "title": "species database",
+    "description": "created by the Borg",
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string",
+            "enum" : ["A340"]
+        },
+        "variant": {
+            "type": "integer"
+        },
+        "år": {
+            "type": "integer",
+            "minimum": 1992,
+            "maximum": 2012
+        },
+        "km": {
+            "type": "integer",
+            "minimum": 1000000,
+            "maximum": 100000000
+        },
+        "pris": {
+            "type": "integer",
+            "exclusiveMinimum":true,
+            "minimum": 100000000
+        }
+    },
+    "required": ["type", "variant", "år", "km", "pris"]
+}

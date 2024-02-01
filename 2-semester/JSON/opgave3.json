@@ -1,0 +1,27 @@
+{
+    "tal": {
+        "allOf": [
+                {"type": "number", "multipleOf": 7},
+                {"type": "number", "multipleOf": 11}
+            ]
+    },
+    "tal": {
+        "anyOf": [
+                {"type": "number", "multipleOf": 7},
+                {"type": "number", "multipleOf": 11}
+            ]
+        },
+        "oneOf": [
+                {"type": "number", "multipleOf": 7},
+                {"type": "number", "multipleOf": 11}
+        ],
+    "tal": {
+        "type": "number",
+            "not": {
+                "anyOf": [
+                    {"multipleOf": 7},
+                    {"multipleOf": 11}
+                ]
+        }
+    } 
+}   
