@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Generated Table</h1>
+    <table border="1">
+      <% for (let i = 0; i < tableData.length; i++) { %>
+        <tr>
+          <% for (let j = 0; j < tableData[i].length; j++) { %>
+            <td><%= tableData[i][j] %></td>
+          <% } %>
+        </tr>
+      <% } %>
+    </table>
+</body>
+</html>
