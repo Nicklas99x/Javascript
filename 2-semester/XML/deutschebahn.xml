@@ -1,0 +1,4053 @@
+<?xml version="1.0"?>
+<deutschebahn>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>8263</Bf__Nr_>
+    <Station>Ahnatal-Casselbreite</Station>
+    <Bf_DS_100_Abk_>FATC</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Casselbreite</Stra_e>
+    <PLZ>34292</PLZ>
+    <Ort>Ahnatal</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>2616</Bf__Nr_>
+    <Station>Ahnatal-Heckershausen</Station>
+    <Bf_DS_100_Abk_>FHEH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>34292</PLZ>
+    <Ort>Ahnatal</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6618</Bf__Nr_>
+    <Station>Ahnatal-Weimar</Station>
+    <Bf_DS_100_Abk_>FWEI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Raiffeisenplatz</Stra_e>
+    <PLZ>34292</PLZ>
+    <Ort>Ahnatal</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>33</Bf__Nr_>
+    <Station>Aich (Niederbay)</Station>
+    <Bf_DS_100_Abk_>MAIC</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Am Bahnberg 1</Stra_e>
+    <PLZ>84155</PLZ>
+    <Ort>Bodenkirchen</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>102</Bf__Nr_>
+    <Station>Altenhasungen</Station>
+    <Bf_DS_100_Abk_>FAHN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Hardtstraße</Stra_e>
+    <PLZ>34466</PLZ>
+    <Ort>Wolfhagen</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>106</Bf__Nr_>
+    <Station>Altenmarkt (Alz)</Station>
+    <Bf_DS_100_Abk_>MATM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Margaretenstraße</Stra_e>
+    <PLZ>83352</PLZ>
+    <Ort>Altenmarkt a.d. Alz</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>127</Bf__Nr_>
+    <Station>Altötting</Station>
+    <Bf_DS_100_Abk_>MAT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofsplatz 1</Stra_e>
+    <PLZ>84503</PLZ>
+    <Ort>Altötting</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>138</Bf__Nr_>
+    <Station>Amorbach</Station>
+    <Bf_DS_100_Abk_>NAMB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>63916</PLZ>
+    <Ort>Amorbach</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>153</Bf__Nr_>
+    <Station>Annaberg-Buchholz Mitte</Station>
+    <Bf_DS_100_Abk_>DABM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Talstraße</Stra_e>
+    <PLZ>9456</PLZ>
+    <Ort>Annaberg-Buchholz</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>154</Bf__Nr_>
+    <Station>Annaberg-Buchholz Süd</Station>
+    <Bf_DS_100_Abk_>DAB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Schneeberger Straße</Stra_e>
+    <PLZ>9456</PLZ>
+    <Ort>Annaberg-Buchholz</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>155</Bf__Nr_>
+    <Station>Annaberg-Buchholz unt Bahnhof</Station>
+    <Bf_DS_100_Abk_>DABU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofsplatz</Stra_e>
+    <PLZ>9456</PLZ>
+    <Ort>Annaberg-Buchholz</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>162</Bf__Nr_>
+    <Station>Antonsthal</Station>
+    <Bf_DS_100_Abk_>DATL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Talstraße</Stra_e>
+    <PLZ>8359</PLZ>
+    <Ort>Breitenbrunn</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>165</Bf__Nr_>
+    <Station>Anzenkirchen</Station>
+    <Bf_DS_100_Abk_>MAK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstr.</Stra_e>
+    <PLZ>84371</PLZ>
+    <Ort>Triftern</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>4666</Bf__Nr_>
+    <Station>Aschaffenburg-Obernau</Station>
+    <Bf_DS_100_Abk_>NOBN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Obernheimweg</Stra_e>
+    <PLZ>63743</PLZ>
+    <Ort>Aschaffenburg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>205</Bf__Nr_>
+    <Station>Aue (Sachs)</Station>
+    <Bf_DS_100_Abk_>DAU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Lößnitzer Straße</Stra_e>
+    <PLZ>8280</PLZ>
+    <Ort>Aue</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>8216</Bf__Nr_>
+    <Station>Aue (Sachs) Erzgebirgsstadion</Station>
+    <Bf_DS_100_Abk_>DAUS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Lößnitzer Straße (Am Stadion)</Stra_e>
+    <PLZ>8280</PLZ>
+    <Ort>Aue</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>7463</Bf__Nr_>
+    <Station>Bad Arolsen</Station>
+    <Bf_DS_100_Abk_>FAR</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Am Bahnhof 1</Stra_e>
+    <PLZ>34454</PLZ>
+    <Ort>Bad Arolsen</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>255</Bf__Nr_>
+    <Station>Bad Birnbach</Station>
+    <Bf_DS_100_Abk_>MBIB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 10</Stra_e>
+    <PLZ>84364</PLZ>
+    <Ort>Bad Birnbach</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>270</Bf__Nr_>
+    <Station>Bad Empfing</Station>
+    <Bf_DS_100_Abk_>MBEP</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Obersulzbach</Stra_e>
+    <PLZ>94081</PLZ>
+    <Ort>Fürstenzell</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Landkreis Passau</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>283</Bf__Nr_>
+    <Station>Bad Höhenstadt</Station>
+    <Bf_DS_100_Abk_>MBHT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 3</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>57334</PLZ>
+    <Ort>Bad Laasphe</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Zweckverband / Verkehrsgemeinschaft Westfalen-Süd</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Nordrhein-Westfalen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>3487</Bf__Nr_>
+    <Station>Bad Laasphe</Station>
+    <Bf_DS_100_Abk_>ELSP</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 3</Kategorie_Vst>
+    <Stra_e>Entenbergstraße</Stra_e>
+    <PLZ>57334</PLZ>
+    <Ort>Bad Laasphe</Ort>
+    <Aufgabentr_ger>Zweckverband Nahverkehr Westfalen-Lippe</Aufgabentr_ger>
+    <Verkehrsverb_nde>Zweckverband / Verkehrsgemeinschaft Westfalen-Süd</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Nordrhein-Westfalen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>8223</Bf__Nr_>
+    <Station>Bad Laasphe-Niederlaasphe</Station>
+    <Bf_DS_100_Abk_>ENL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofsplatz</Stra_e>
+    <PLZ>97980</PLZ>
+    <Ort>Bad Mergentheim</Ort>
+    <Aufgabentr_ger>Zweckverband Nahverkehr Westfalen-Lippe</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>305</Bf__Nr_>
+    <Station>Bad Mergentheim</Station>
+    <Bf_DS_100_Abk_>TBMR</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Hauptstraße</Stra_e>
+    <PLZ>8301</PLZ>
+    <Ort>Bad Schlema</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5587</Bf__Nr_>
+    <Station>Bad Schlema</Station>
+    <Bf_DS_100_Abk_>DSUB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>34537</PLZ>
+    <Ort>Bad Wildungen</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>362</Bf__Nr_>
+    <Station>Bad Wildungen</Station>
+    <Bf_DS_100_Abk_>FBWD</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>9471</PLZ>
+    <Ort>Bärenstein</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>407</Bf__Nr_>
+    <Station>Bärenstein (Kr Annaberg)</Station>
+    <Bf_DS_100_Abk_>DBS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 28</Stra_e>
+    <PLZ>94137</PLZ>
+    <Ort>Bayerbach</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>434</Bf__Nr_>
+    <Station>Bayerbach</Station>
+    <Bf_DS_100_Abk_>MBYB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>Ortsstraße 45</Stra_e>
+    <PLZ>7426</PLZ>
+    <Ort>Bechstedt</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>445</Bf__Nr_>
+    <Station>Bechstedt-Trippstein</Station>
+    <Bf_DS_100_Abk_>UBET</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bibelöd 6</Stra_e>
+    <PLZ>83324</PLZ>
+    <Ort>Ruhpolding</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>8217</Bf__Nr_>
+    <Station>Bibelöd</Station>
+    <Bf_DS_100_Abk_>MBID</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>35216</PLZ>
+    <Ort>Biedenkopf</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>620</Bf__Nr_>
+    <Station>Biedenkopf</Station>
+    <Bf_DS_100_Abk_>FBIK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Vater-Jahn-Straße</Stra_e>
+    <PLZ>35216</PLZ>
+    <Ort>Biedenkopf</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>8218</Bf__Nr_>
+    <Station>Biedenkopf Schulzentrum</Station>
+    <Bf_DS_100_Abk_>FBIZ</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>35216</PLZ>
+    <Ort>Biedenkopf</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6502</Bf__Nr_>
+    <Station>Biedenkopf-Wallau</Station>
+    <Bf_DS_100_Abk_>FWA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>35099</PLZ>
+    <Ort>Burgwald</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>657</Bf__Nr_>
+    <Station>Birkenbringhausen</Station>
+    <Bf_DS_100_Abk_>FBBH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>74572</PLZ>
+    <Ort>Blaufelden</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>KreisVerkehr Schwäbisch Hall</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>697</Bf__Nr_>
+    <Station>Blaufelden</Station>
+    <Bf_DS_100_Abk_>TBLF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Hauptstraße</Stra_e>
+    <PLZ>9526</PLZ>
+    <Ort>Olbernhau</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>711</Bf__Nr_>
+    <Station>Blumenau</Station>
+    <Bf_DS_100_Abk_>DBLU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofsweg</Stra_e>
+    <PLZ>74722</PLZ>
+    <Ort>Buchen (Odenwald)</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>745</Bf__Nr_>
+    <Station>Bödigheim</Station>
+    <Bf_DS_100_Abk_>RBGH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Schachtstraße</Stra_e>
+    <PLZ>8359</PLZ>
+    <Ort>Breitenbrunn</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>848</Bf__Nr_>
+    <Station>Breitenbrunn (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DBRE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Eisenbahnstraße</Stra_e>
+    <PLZ>74722</PLZ>
+    <Ort>Buchen (Odenwald)</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>930</Bf__Nr_>
+    <Station>Buchen im Odenwald</Station>
+    <Bf_DS_100_Abk_>RBUN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Am Wartberg</Stra_e>
+    <PLZ>74722</PLZ>
+    <Ort>Buchen (Odenwald)</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>931</Bf__Nr_>
+    <Station>Buchen Ost</Station>
+    <Bf_DS_100_Abk_>RBUO</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Elmshäuser Straße</Stra_e>
+    <PLZ>35232</PLZ>
+    <Ort>Dautphetal</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>932</Bf__Nr_>
+    <Station>Buchenau (Lahn)</Station>
+    <Bf_DS_100_Abk_>FBNU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Berliner Platz 2</Stra_e>
+    <PLZ>84489</PLZ>
+    <Ort>Burghausen</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>985</Bf__Nr_>
+    <Station>Burghausen</Station>
+    <Bf_DS_100_Abk_>MBUH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Rupertusstraße 16-26</Stra_e>
+    <PLZ>84508</PLZ>
+    <Ort>Burgkirchen a.d.Alz</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>990</Bf__Nr_>
+    <Station>Burgkirchen</Station>
+    <Bf_DS_100_Abk_>MBGK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>9235</PLZ>
+    <Ort>Burkhardtsdorf</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1001</Bf__Nr_>
+    <Station>Burkhardtsdorf</Station>
+    <Bf_DS_100_Abk_>DBUF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Ahnerweg</Stra_e>
+    <PLZ>9235</PLZ>
+    <Ort>Burkhardtsdorf</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>8219</Bf__Nr_>
+    <Station>Burkhardtsdorf Mitte</Station>
+    <Bf_DS_100_Abk_>DBUM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Am Hammerwald</Stra_e>
+    <PLZ>8064</PLZ>
+    <Ort>Zwickau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1018</Bf__Nr_>
+    <Station>Cainsdorf</Station>
+    <Bf_DS_100_Abk_>DCDF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Zum Wollenberg</Stra_e>
+    <PLZ>35094</PLZ>
+    <Ort>Lahntal</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>1023</Bf__Nr_>
+    <Station>Caldern</Station>
+    <Bf_DS_100_Abk_>FCLD</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Paul-Franke-Straße</Stra_e>
+    <PLZ>9125</PLZ>
+    <Ort>Chemnitz</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1047</Bf__Nr_>
+    <Station>Chemnitz-Erfenschlag</Station>
+    <Bf_DS_100_Abk_>DCE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Erfenschlager Straße</Stra_e>
+    <PLZ>9125</PLZ>
+    <Ort>Chemnitz</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1051</Bf__Nr_>
+    <Station>Chemnitz-Reichenhain</Station>
+    <Bf_DS_100_Abk_>DCRE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>97903</PLZ>
+    <Ort>Collenberg</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>5210</Bf__Nr_>
+    <Station>Collenberg</Station>
+    <Bf_DS_100_Abk_>NRF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 6</Stra_e>
+    <PLZ>98744</PLZ>
+    <Ort>Cursdorf</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>1094</Bf__Nr_>
+    <Station>Cursdorf</Station>
+    <Bf_DS_100_Abk_>UCF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Baumgartenweg</Stra_e>
+    <PLZ>97941</PLZ>
+    <Ort>Tauberbischofsheim</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>1228</Bf__Nr_>
+    <Station>Distelhausen</Station>
+    <Bf_DS_100_Abk_>TDIH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>9439</PLZ>
+    <Ort>Amtsberg</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1232</Bf__Nr_>
+    <Station>Dittersdorf</Station>
+    <Bf_DS_100_Abk_>DDF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Frombergstraße</Stra_e>
+    <PLZ>97941</PLZ>
+    <Ort>Tauberbischofsheim</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>1233</Bf__Nr_>
+    <Station>Dittigheim</Station>
+    <Bf_DS_100_Abk_>TDM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>An der Bahn</Stra_e>
+    <PLZ>9619</PLZ>
+    <Ort>Zwönitz</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1267</Bf__Nr_>
+    <Station>Dorfchemnitz (b Zwönitz)</Station>
+    <Bf_DS_100_Abk_>DDCH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Bahnstraße</Stra_e>
+    <PLZ>97904</PLZ>
+    <Ort>Dorfprozelten</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>1272</Bf__Nr_>
+    <Station>Dorfprozelten</Station>
+    <Bf_DS_100_Abk_>NDP</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Wilhelm-Frank-Straße</Stra_e>
+    <PLZ>97980</PLZ>
+    <Ort>Bad Mergentheim</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>1460</Bf__Nr_>
+    <Station>Edelfingen</Station>
+    <Bf_DS_100_Abk_>TED</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnstraße 3-15</Stra_e>
+    <PLZ>83533</PLZ>
+    <Ort>Edling</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Münchener Verkehrs- und Tarifverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>1466</Bf__Nr_>
+    <Station>Edling</Station>
+    <Bf_DS_100_Abk_>MEDL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 3-8</Stra_e>
+    <PLZ>84307</PLZ>
+    <Ort>Eggenfelden</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>1474</Bf__Nr_>
+    <Station>Eggenfelden</Station>
+    <Bf_DS_100_Abk_>MEGF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Spirknerallee 2-6</Stra_e>
+    <PLZ>84307</PLZ>
+    <Ort>Eggenfelden</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>8209</Bf__Nr_>
+    <Station>Eggenfelden Mitte</Station>
+    <Bf_DS_100_Abk_>MEFM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 13</Stra_e>
+    <PLZ>84546</PLZ>
+    <Ort>Egglkofen</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>1477</Bf__Nr_>
+    <Station>Egglkofen</Station>
+    <Bf_DS_100_Abk_>MEGK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Niederelsunger Straße 33</Stra_e>
+    <PLZ>34471</PLZ>
+    <Ort>Volkmarsen</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>1490</Bf__Nr_>
+    <Station>Ehringen</Station>
+    <Bf_DS_100_Abk_>FEGN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Am Einsiedler Bahnhof</Stra_e>
+    <PLZ>9123</PLZ>
+    <Ort>Chemnitz</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1524</Bf__Nr_>
+    <Station>Einsiedel</Station>
+    <Bf_DS_100_Abk_>DED</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Einsiedler Hauptstraße</Stra_e>
+    <PLZ>9123</PLZ>
+    <Ort>Chemnitz</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>8220</Bf__Nr_>
+    <Station>Einsiedel Gymnasium</Station>
+    <Bf_DS_100_Abk_>DEDH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Dorfstraße</Stra_e>
+    <PLZ>83313</PLZ>
+    <Ort>Siegsdorf</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>1531</Bf__Nr_>
+    <Station>Eisenärzt</Station>
+    <Bf_DS_100_Abk_>MEZT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Deutschordenstraße</Stra_e>
+    <PLZ>97990</PLZ>
+    <Ort>Weikersheim</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>1559</Bf__Nr_>
+    <Station>Elpersheim</Station>
+    <Bf_DS_100_Abk_>TELP</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Raiffeisenstraße 22</Stra_e>
+    <PLZ>94081</PLZ>
+    <Ort>Fürstenzell</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Landkreis Passau</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>1600</Bf__Nr_>
+    <Station>Engertsham</Station>
+    <Bf_DS_100_Abk_>MEGH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>9573</PLZ>
+    <Ort>Augustusburg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1629</Bf__Nr_>
+    <Station>Erdmannsdorf-Augustusburg</Station>
+    <Bf_DS_100_Abk_>DEA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Karlsbader Straße</Stra_e>
+    <PLZ>8340</PLZ>
+    <Ort>Schwarzenberg</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1648</Bf__Nr_>
+    <Station>Erla</Station>
+    <Bf_DS_100_Abk_>DERA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Schwarzenberger Straße</Stra_e>
+    <PLZ>8359</PLZ>
+    <Ort>Erlabrunn</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1649</Bf__Nr_>
+    <Station>Erlabrunn (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DERB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>63906</PLZ>
+    <Ort>Erlenbach a.Main</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>1656</Bf__Nr_>
+    <Station>Erlenbach am Main</Station>
+    <Bf_DS_100_Abk_>NERL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Marburger Straße</Stra_e>
+    <PLZ>35099</PLZ>
+    <Ort>Burgwald</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>1661</Bf__Nr_>
+    <Station>Ernsthausen (Kr Frankenberg)</Station>
+    <Bf_DS_100_Abk_>FERH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>8134</PLZ>
+    <Ort>Langenweißbach</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1745</Bf__Nr_>
+    <Station>Fährbrücke</Station>
+    <Bf_DS_100_Abk_>DFBE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Am Haltepunkt</Stra_e>
+    <PLZ>9557</PLZ>
+    <Ort>Falkenau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1750</Bf__Nr_>
+    <Station>Falkenau (Sachs)</Station>
+    <Bf_DS_100_Abk_>DFU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Hauptstraße</Stra_e>
+    <PLZ>97906</PLZ>
+    <Ort>Faulbach</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>1766</Bf__Nr_>
+    <Station>Faulbach (Main)</Station>
+    <Bf_DS_100_Abk_>NFCH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 3</Kategorie_Vst>
+    <Stra_e>Sieg-Lahn-Straße</Stra_e>
+    <PLZ>57334</PLZ>
+    <Ort>Bad Laasphe</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Zweckverband / Verkehrsgemeinschaft Westfalen-Süd</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Nordrhein-Westfalen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>1786</Bf__Nr_>
+    <Station>Feudingen</Station>
+    <Bf_DS_100_Abk_>EFEU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Augustusburger Straße</Stra_e>
+    <PLZ>9557</PLZ>
+    <Ort>Flöha</Ort>
+    <Aufgabentr_ger>Zweckverband Nahverkehr Westfalen-Lippe</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>8221</Bf__Nr_>
+    <Station>Flöha-Plaue</Station>
+    <Bf_DS_100_Abk_>DFLP</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Mühlenstraße</Stra_e>
+    <PLZ>9579</PLZ>
+    <Ort>Wildenstein</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>1820</Bf__Nr_>
+    <Station>Floßmühle</Station>
+    <Bf_DS_100_Abk_>DFM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnweg 3</Stra_e>
+    <PLZ>83539</PLZ>
+    <Ort>Pfaffing</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Münchener Verkehrs- und Tarifverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>1837</Bf__Nr_>
+    <Station>Forsting</Station>
+    <Bf_DS_100_Abk_>MFOS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>35066</PLZ>
+    <Ort>Frankenberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>1841</Bf__Nr_>
+    <Station>Frankenberg (Eder)</Station>
+    <Bf_DS_100_Abk_>FFRK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Otto-Stölker-Straße</Stra_e>
+    <PLZ>35066</PLZ>
+    <Ort>Frankenberg / Eder</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>8302</Bf__Nr_>
+    <Station>Frankenberg (Eder) Goßberg</Station>
+    <Bf_DS_100_Abk_>FFRG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Am Schmittenbach</Stra_e>
+    <PLZ>35066</PLZ>
+    <Ort>Frankenberg (Eder)</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>7512</Bf__Nr_>
+    <Station>Frankenberg (Eder) Viermünden</Station>
+    <Bf_DS_100_Abk_>FVI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>97896</PLZ>
+    <Ort>Collenberg</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>1920</Bf__Nr_>
+    <Station>Freudenberg-Kirschfurt</Station>
+    <Bf_DS_100_Abk_>NFM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Wiesenweg 10</Stra_e>
+    <PLZ>83413</PLZ>
+    <Ort>Fridolfing</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>1928</Bf__Nr_>
+    <Station>Fridolfing</Station>
+    <Bf_DS_100_Abk_>MFDF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Wilhelmshütter Straße</Stra_e>
+    <PLZ>35232</PLZ>
+    <Ort>Dautphetal</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>1933</Bf__Nr_>
+    <Station>Friedensdorf (Lahn)</Station>
+    <Bf_DS_100_Abk_>FFRD</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Am Güterbahnhof</Stra_e>
+    <PLZ>34560</PLZ>
+    <Ort>Fritzlar</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>1964</Bf__Nr_>
+    <Station>Fritzlar</Station>
+    <Bf_DS_100_Abk_>FFZ</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße </Stra_e>
+    <PLZ>34379</PLZ>
+    <Ort>Calden</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>1979</Bf__Nr_>
+    <Station>Fürstenwald</Station>
+    <Bf_DS_100_Abk_>FFNW</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Aspertsham 55</Stra_e>
+    <PLZ>94081</PLZ>
+    <Ort>Fürstenzell</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Landkreis Passau</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>1982</Bf__Nr_>
+    <Station>Fürstenzell</Station>
+    <Bf_DS_100_Abk_>MFZL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>97956</PLZ>
+    <Ort>Werbach</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>2004</Bf__Nr_>
+    <Station>Gamburg</Station>
+    <Bf_DS_100_Abk_>TGAM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>84518</PLZ>
+    <Ort>Garching a.d. Alz</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>2010</Bf__Nr_>
+    <Station>Garching (Alz)</Station>
+    <Bf_DS_100_Abk_>MGA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Fortlschusterstr. 12</Stra_e>
+    <PLZ>83536</PLZ>
+    <Ort>Gars a. Inn</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>2015</Bf__Nr_>
+    <Station>Gars (Inn)</Station>
+    <Bf_DS_100_Abk_>MGS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 39</Stra_e>
+    <PLZ>84144</PLZ>
+    <Ort>Geisenhausen</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>2041</Bf__Nr_>
+    <Station>Geisenhausen</Station>
+    <Bf_DS_100_Abk_>MGHS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Industriepark</Stra_e>
+    <PLZ>84508</PLZ>
+    <Ort>Burgkirchen a.d.Alz</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>7547</Bf__Nr_>
+    <Station>Gendorf</Station>
+    <Bf_DS_100_Abk_>MGND</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Glanzstoffstraße</Stra_e>
+    <PLZ>63785</PLZ>
+    <Ort>Erlenbach a.Main</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>2137</Bf__Nr_>
+    <Station>Glanzstoffwerke</Station>
+    <Bf_DS_100_Abk_>NGLW</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>35094</PLZ>
+    <Ort>Lahntal</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>2205</Bf__Nr_>
+    <Station>Goßfelden</Station>
+    <Bf_DS_100_Abk_>FGOF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Am Güterbahnhof</Stra_e>
+    <PLZ>9579</PLZ>
+    <Ort>Wildenstein</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>2396</Bf__Nr_>
+    <Station>Grünhainichen-Borstendorf</Station>
+    <Bf_DS_100_Abk_>DGRB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>8340</PLZ>
+    <Ort>Schwarzenberg</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>2404</Bf__Nr_>
+    <Station>Grünstädtel</Station>
+    <Bf_DS_100_Abk_>DGS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>74722</PLZ>
+    <Ort>Buchen (Odenwald)</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>2481</Bf__Nr_>
+    <Station>Hainstadt (Baden)</Station>
+    <Bf_DS_100_Abk_>RHAI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>8118</PLZ>
+    <Ort>Hartenstein</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>2567</Bf__Nr_>
+    <Station>Hartenstein</Station>
+    <Bf_DS_100_Abk_>DHST</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>97907</PLZ>
+    <Ort>Hasloch</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>2578</Bf__Nr_>
+    <Station>Hasloch am Main</Station>
+    <Bf_DS_100_Abk_>NHCH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 3</Stra_e>
+    <PLZ>84332</PLZ>
+    <Ort>Hebertsfelden</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>2612</Bf__Nr_>
+    <Station>Hebertsfelden</Station>
+    <Bf_DS_100_Abk_>MHEF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Marsstraße</Stra_e>
+    <PLZ>84557</PLZ>
+    <Ort>Tüßling</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>7549</Bf__Nr_>
+    <Station>Heiligenstatt</Station>
+    <Bf_DS_100_Abk_>MHEI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>9573</PLZ>
+    <Ort>Augustusburg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>2690</Bf__Nr_>
+    <Station>Hennersdorf (Sachs)</Station>
+    <Bf_DS_100_Abk_>DHRF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Lindenstraße</Stra_e>
+    <PLZ>9557</PLZ>
+    <Ort>Flöha</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>2754</Bf__Nr_>
+    <Station>Hetzdorf (Flöhatal)</Station>
+    <Bf_DS_100_Abk_>DHZF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Landstraße</Stra_e>
+    <PLZ>97941</PLZ>
+    <Ort>Tauberbischofsheim</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>2801</Bf__Nr_>
+    <Station>Hochhausen</Station>
+    <Bf_DS_100_Abk_>THO</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>9573</PLZ>
+    <Ort>Leubsdorf+Hohenfichte</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>2845</Bf__Nr_>
+    <Station>Hohenfichte</Station>
+    <Bf_DS_100_Abk_>DHOF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Ruhpoldinger Straße</Stra_e>
+    <PLZ>83313</PLZ>
+    <Ort>Siegsdorf</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>2899</Bf__Nr_>
+    <Station>Höpfling</Station>
+    <Bf_DS_100_Abk_>MHPF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Mühlweg 10</Stra_e>
+    <PLZ>83301</PLZ>
+    <Ort>Traunreut</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>2918</Bf__Nr_>
+    <Station>Hörpolding</Station>
+    <Bf_DS_100_Abk_>MHPD</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Waginger Straße</Stra_e>
+    <PLZ>83362</PLZ>
+    <Ort>Surberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>2940</Bf__Nr_>
+    <Station>Hufschlag</Station>
+    <Bf_DS_100_Abk_>MHUF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>97999</PLZ>
+    <Ort>Igersheim</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>2968</Bf__Nr_>
+    <Station>Igersheim</Station>
+    <Bf_DS_100_Abk_>TIH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 2-4</Stra_e>
+    <PLZ>84555</PLZ>
+    <Ort>Jettenbach</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>3052</Bf__Nr_>
+    <Station>Jettenbach</Station>
+    <Bf_DS_100_Abk_>MJEB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Pachthausstraße</Stra_e>
+    <PLZ>8349</PLZ>
+    <Ort>Johanngeorgenstadt</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>3059</Bf__Nr_>
+    <Station>Johanngeorgenstadt</Station>
+    <Bf_DS_100_Abk_>DJ</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Flurstraße</Stra_e>
+    <PLZ>84387</PLZ>
+    <Ort>Julbach</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>8222</Bf__Nr_>
+    <Station>Julbach</Station>
+    <Bf_DS_100_Abk_>MJUL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Karpfham Bahnhof 2</Stra_e>
+    <PLZ>94094</PLZ>
+    <Ort>Rotthalmünster</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Landkreis Passau</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>3116</Bf__Nr_>
+    <Station>Karpfham</Station>
+    <Bf_DS_100_Abk_>MKH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 9-11</Stra_e>
+    <PLZ>84556</PLZ>
+    <Ort>Kastl</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>3128</Bf__Nr_>
+    <Station>Kastl (Oberbay)</Station>
+    <Bf_DS_100_Abk_>MKAT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 103</Stra_e>
+    <PLZ>98746</PLZ>
+    <Ort>Katzhütte</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>3137</Bf__Nr_>
+    <Station>Katzhütte</Station>
+    <Bf_DS_100_Abk_>UKH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Mühlenweg</Stra_e>
+    <PLZ>9235</PLZ>
+    <Ort>Burkhardtsdorf</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>3157</Bf__Nr_>
+    <Station>Kemtau</Station>
+    <Bf_DS_100_Abk_>DKAU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Am Bahnweiher 1</Stra_e>
+    <PLZ>83417</PLZ>
+    <Ort>Kirchanschöring</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>3182</Bf__Nr_>
+    <Station>Kirchanschöring</Station>
+    <Bf_DS_100_Abk_>MKAG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 12-24</Stra_e>
+    <PLZ>84558</PLZ>
+    <Ort>Kirchweidach</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>7550</Bf__Nr_>
+    <Station>Kirchweidach</Station>
+    <Bf_DS_100_Abk_>MKW</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>63924</PLZ>
+    <Ort>Kleinheubach</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>3250</Bf__Nr_>
+    <Station>Kleinheubach</Station>
+    <Bf_DS_100_Abk_>NKLH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Wallstraße</Stra_e>
+    <PLZ>63839</PLZ>
+    <Ort>Kleinwallstadt</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>3262</Bf__Nr_>
+    <Station>Kleinwallstadt</Station>
+    <Bf_DS_100_Abk_>NKT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>63911</PLZ>
+    <Ort>Klingenberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>3270</Bf__Nr_>
+    <Station>Klingenberg am Main</Station>
+    <Bf_DS_100_Abk_>NKM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>L 509</Stra_e>
+    <PLZ>97877</PLZ>
+    <Ort>Wertheim</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>897</Bf__Nr_>
+    <Station>Kloster Bronnbach</Station>
+    <Bf_DS_100_Abk_>TBR</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Am Hauptbahnhof</Stra_e>
+    <PLZ>34497</PLZ>
+    <Ort>Korbach</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>3371</Bf__Nr_>
+    <Station>Korbach</Station>
+    <Bf_DS_100_Abk_>FKOB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Am Südbahnhof</Stra_e>
+    <PLZ>34497</PLZ>
+    <Ort>Korbach</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>3372</Bf__Nr_>
+    <Station>Korbach Süd</Station>
+    <Bf_DS_100_Abk_>FKBS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Alte Mühle 11</Stra_e>
+    <PLZ>34471</PLZ>
+    <Ort>Volkmarsen</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>7490</Bf__Nr_>
+    <Station>Külte-Wetterburg</Station>
+    <Bf_DS_100_Abk_>FKWB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Hauptstraße</Stra_e>
+    <PLZ>35094</PLZ>
+    <Ort>Lahntal</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>8246</Bf__Nr_>
+    <Station>Lahntal-Sarnau</Station>
+    <Bf_DS_100_Abk_>FLSR</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Habichtstr. 8-17</Stra_e>
+    <PLZ>84036</PLZ>
+    <Ort>Landshut</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>3514</Bf__Nr_>
+    <Station>Landshut (Bay) Süd</Station>
+    <Bf_DS_100_Abk_>MLAS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Miltenberger Straße</Stra_e>
+    <PLZ>63925</PLZ>
+    <Ort>Laudenbach</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>3577</Bf__Nr_>
+    <Station>Laudenbach am Main</Station>
+    <Bf_DS_100_Abk_>NLK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnstraße</Stra_e>
+    <PLZ>97990</PLZ>
+    <Ort>Weikersheim</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>3579</Bf__Nr_>
+    <Station>Laudenbach (Württ)</Station>
+    <Bf_DS_100_Abk_>TLC</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 42-50</Stra_e>
+    <PLZ>83410</PLZ>
+    <Ort>Laufen</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Salzburger Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>3588</Bf__Nr_>
+    <Station>Laufen (Oberbay)</Station>
+    <Bf_DS_100_Abk_>MLF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>8315</PLZ>
+    <Ort>Lauter-Bernsbach</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>3601</Bf__Nr_>
+    <Station>Lauter (Sachs)</Station>
+    <Bf_DS_100_Abk_>DLR</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 3</Kategorie_Vst>
+    <Stra_e>Hauptstraße</Stra_e>
+    <PLZ>57339</PLZ>
+    <Ort>Erndtebrück</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Zweckverband / Verkehrsgemeinschaft Westfalen-Süd</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Nordrhein-Westfalen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>3624</Bf__Nr_>
+    <Station>Leimstruth</Station>
+    <Bf_DS_100_Abk_>ELEI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Rauenstein</Stra_e>
+    <PLZ>9514</PLZ>
+    <Ort>Pockau-Lengefeld</Ort>
+    <Aufgabentr_ger>Zweckverband Nahverkehr Westfalen-Lippe</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>3659</Bf__Nr_>
+    <Station>Lengefeld-Rauenstein</Station>
+    <Bf_DS_100_Abk_>DRAU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Hauptstraße</Stra_e>
+    <PLZ>9573</PLZ>
+    <Ort>Leubsdorf+Hohenfichte</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>3678</Bf__Nr_>
+    <Station>Leubsdorf (Sachs)</Station>
+    <Bf_DS_100_Abk_>DLEU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>Bergbahnstraße 9</Stra_e>
+    <PLZ>98744</PLZ>
+    <Ort>Oberweißbach</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>3702</Bf__Nr_>
+    <Station>Lichtenhain a d Bergbahn</Station>
+    <Bf_DS_100_Abk_>ULIH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>8294</PLZ>
+    <Ort>Lößnitz</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>3791</Bf__Nr_>
+    <Station>Lößnitz ob Bf</Station>
+    <Bf_DS_100_Abk_>DLN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>8294</PLZ>
+    <Ort>Lößnitz</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>3792</Bf__Nr_>
+    <Station>Lößnitz unt Bf</Station>
+    <Bf_DS_100_Abk_>DLNU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Fritzlarer Straße</Stra_e>
+    <PLZ>34537</PLZ>
+    <Ort>Bad Wildungen</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>3921</Bf__Nr_>
+    <Station>Mandern</Station>
+    <Bf_DS_100_Abk_>FMAN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Untere Bahnhofstraße</Stra_e>
+    <PLZ>9496</PLZ>
+    <Ort>Marienberg</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>3948</Bf__Nr_>
+    <Station>Marienberg (Sachs)</Station>
+    <Bf_DS_100_Abk_>DMG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Weikersheimer Straße</Stra_e>
+    <PLZ>97980</PLZ>
+    <Ort>Bad Mergentheim</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>3958</Bf__Nr_>
+    <Station>Markelsheim</Station>
+    <Bf_DS_100_Abk_>TMA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>8352</PLZ>
+    <Ort>Raschau-Markersbach</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>3959</Bf__Nr_>
+    <Station>Markersbach (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DMAR</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Hauptstraße 36</Stra_e>
+    <PLZ>84533</PLZ>
+    <Ort>Marktl</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>3975</Bf__Nr_>
+    <Station>Marktl</Station>
+    <Bf_DS_100_Abk_>MMK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Ludwig-Thoma-Strasse</Stra_e>
+    <PLZ>84323</PLZ>
+    <Ort>Massing</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>3998</Bf__Nr_>
+    <Station>Massing</Station>
+    <Bf_DS_100_Abk_>MMSG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>83301</PLZ>
+    <Ort>Traunreut</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4000</Bf__Nr_>
+    <Station>Matzing</Station>
+    <Bf_DS_100_Abk_>MMTZ</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>9235</PLZ>
+    <Ort>Burkhardtsdorf</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>4030</Bf__Nr_>
+    <Station>Meinersdorf (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DMS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>August-Bebel-Straße 29</Stra_e>
+    <PLZ>98746</PLZ>
+    <Ort>Mellenbach-Glasbach</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>4045</Bf__Nr_>
+    <Station>Mellenbach-Glasbach</Station>
+    <Bf_DS_100_Abk_>UMEL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Auf der Schanze</Stra_e>
+    <PLZ>34454</PLZ>
+    <Ort>Bad Arolsen</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>7494</Bf__Nr_>
+    <Station>Mengeringhausen</Station>
+    <Bf_DS_100_Abk_>FMGH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>Mellenbacher Straße 18</Stra_e>
+    <PLZ>98746</PLZ>
+    <Ort>Meuselbach-Schwarzmühle</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>4089</Bf__Nr_>
+    <Station>Meuselbach-Schwarzmühle</Station>
+    <Bf_DS_100_Abk_>UMEU</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Brückenstraße</Stra_e>
+    <PLZ>63897</PLZ>
+    <Ort>Miltenberg</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>4110</Bf__Nr_>
+    <Station>Miltenberg</Station>
+    <Bf_DS_100_Abk_>NM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Greinbergstraße</Stra_e>
+    <PLZ>63897</PLZ>
+    <Ort>Miltenberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>850</Bf__Nr_>
+    <Station>Miltenberg-Breitendiel</Station>
+    <Bf_DS_100_Abk_>NBRE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Kirchenstrasse 18</Stra_e>
+    <PLZ>83559</PLZ>
+    <Ort>Gars a.Inn</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4137</Bf__Nr_>
+    <Station>Mittergars</Station>
+    <Bf_DS_100_Abk_>MMIG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofsplatz</Stra_e>
+    <PLZ>84453</PLZ>
+    <Ort>Mühldorf a.Inn</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4201</Bf__Nr_>
+    <Station>Mühldorf (Oberbay)</Station>
+    <Bf_DS_100_Abk_>MMF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>35117</PLZ>
+    <Ort>Münchhausen</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>4272</Bf__Nr_>
+    <Station>Münchhausen</Station>
+    <Bf_DS_100_Abk_>FMHN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Nennigmühle</Stra_e>
+    <PLZ>9509</PLZ>
+    <Ort>Pockau-Lengefeld</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>4339</Bf__Nr_>
+    <Station>Nennigmühle</Station>
+    <Bf_DS_100_Abk_>DNGM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>9544</PLZ>
+    <Ort>Neuhausen</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>4398</Bf__Nr_>
+    <Station>Neuhausen (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DNH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstr. 12</Stra_e>
+    <PLZ>94127</PLZ>
+    <Ort>Neuburg a.Inn</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Landkreis Passau</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4407</Bf__Nr_>
+    <Station>Neukirchen (Inn)</Station>
+    <Bf_DS_100_Abk_>MNK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 22</Stra_e>
+    <PLZ>84494</PLZ>
+    <Ort>Neumarkt-Sankt Veit</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4417</Bf__Nr_>
+    <Station>Neumarkt-St Veit</Station>
+    <Bf_DS_100_Abk_>MNR</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>84543</PLZ>
+    <Ort>Winhöring</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4430</Bf__Nr_>
+    <Station>Neuötting</Station>
+    <Bf_DS_100_Abk_>MNN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Neustift</Stra_e>
+    <PLZ>94036</PLZ>
+    <Ort>Passau</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Landkreis Passau</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4459</Bf__Nr_>
+    <Station>Neustift (b Passau)</Station>
+    <Bf_DS_100_Abk_>NNSP</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>97996</PLZ>
+    <Ort>Niederstetten</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>4530</Bf__Nr_>
+    <Station>Niederstetten</Station>
+    <Bf_DS_100_Abk_>TNI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Rittergutsweg</Stra_e>
+    <PLZ>8297</PLZ>
+    <Ort>Zwönitz</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>8224</Bf__Nr_>
+    <Station>Niederzwönitz</Station>
+    <Bf_DS_100_Abk_>DNZW</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Taubertalradweg</Stra_e>
+    <PLZ>97956</PLZ>
+    <Ort>Werbach</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>4556</Bf__Nr_>
+    <Station>Niklashausen</Station>
+    <Bf_DS_100_Abk_>TNK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>An der L 3214 Nr. 2</Stra_e>
+    <PLZ>34289</PLZ>
+    <Ort>Zierenberg</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>4636</Bf__Nr_>
+    <Station>Oberelsungen</Station>
+    <Bf_DS_100_Abk_>FOSN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Glanzstoffstraße</Stra_e>
+    <PLZ>63820</PLZ>
+    <Ort>Elsenfeld</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>4668</Bf__Nr_>
+    <Station>Obernburg-Elsenfeld</Station>
+    <Bf_DS_100_Abk_>NOE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 3</Kategorie_Vst>
+    <Stra_e>Siegener Straße</Stra_e>
+    <PLZ>57334</PLZ>
+    <Ort>Bad Laasphe</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Zweckverband / Verkehrsgemeinschaft Westfalen-Süd</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Nordrhein-Westfalen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>4669</Bf__Nr_>
+    <Station>Oberndorf (Kr Wittgenstein)</Station>
+    <Bf_DS_100_Abk_>EOBW</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>Fröbelstraße 24</Stra_e>
+    <PLZ>98744</PLZ>
+    <Ort>Oberweißbach</Ort>
+    <Aufgabentr_ger>Zweckverband Nahverkehr Westfalen-Lippe</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>4707</Bf__Nr_>
+    <Station>Oberweißbach-Deesbach</Station>
+    <Bf_DS_100_Abk_>UOW</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>An der Bergbahn 1</Stra_e>
+    <PLZ>98746</PLZ>
+    <Ort>Mellenbach-Glasbach</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>4716</Bf__Nr_>
+    <Station>Obstfelderschmiede</Station>
+    <Bf_DS_100_Abk_>UOFM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Brandauer Straße</Stra_e>
+    <PLZ>9526</PLZ>
+    <Ort>Olbernhau</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>4757</Bf__Nr_>
+    <Station>Olbernhau</Station>
+    <Bf_DS_100_Abk_>DOL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>An der Bahnlinie</Stra_e>
+    <PLZ>9526</PLZ>
+    <Ort>Olbernhau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>8225</Bf__Nr_>
+    <Station>Olbernhau West</Station>
+    <Bf_DS_100_Abk_>DOLW</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Jagdweg</Stra_e>
+    <PLZ>96526</PLZ>
+    <Ort>Olbernhau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>4758</Bf__Nr_>
+    <Station>Olbernhau-Grünthal</Station>
+    <Bf_DS_100_Abk_>DOGT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Oberleiten 20</Stra_e>
+    <PLZ>83329</PLZ>
+    <Ort>Waging a.See</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4833</Bf__Nr_>
+    <Station>Otting</Station>
+    <Bf_DS_100_Abk_>MOTG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnweg 1-18</Stra_e>
+    <PLZ>84347</PLZ>
+    <Ort>Pfarrkirchen</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4917</Bf__Nr_>
+    <Station>Pfarrkirchen</Station>
+    <Bf_DS_100_Abk_>MPKI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>-</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>8226</Bf__Nr_>
+    <Station>Pockau Strobelmühle</Station>
+    <Bf_DS_100_Abk_>DSTM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Pockau-Lengefeld</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>4972</Bf__Nr_>
+    <Station>Pockau-Lengefeld</Station>
+    <Bf_DS_100_Abk_>DPF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Griesbacher Str.</Stra_e>
+    <PLZ>94060</PLZ>
+    <Ort>Pocking</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>4973</Bf__Nr_>
+    <Station>Pocking</Station>
+    <Bf_DS_100_Abk_>MPKG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Ro 43 42</Stra_e>
+    <PLZ>83561</PLZ>
+    <Ort>Ramerberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5109</Bf__Nr_>
+    <Station>Ramerberg</Station>
+    <Bf_DS_100_Abk_>MRMB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Raschau-Markersbach</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5124</Bf__Nr_>
+    <Station>Raschau (b Schwarzenberg)</Station>
+    <Bf_DS_100_Abk_>DRAS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Alte Heerstraße</Stra_e>
+    <PLZ>97877</PLZ>
+    <Ort>Wertheim</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>5195</Bf__Nr_>
+    <Station>Reicholzheim</Station>
+    <Bf_DS_100_Abk_>TRL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Pockau-Lengefeld</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5196</Bf__Nr_>
+    <Station>Reifland-Wünschendorf</Station>
+    <Bf_DS_100_Abk_>DRF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>74731</PLZ>
+    <Ort>Walldürn</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>5290</Bf__Nr_>
+    <Station>Rippberg</Station>
+    <Bf_DS_100_Abk_>RRB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Rohrbach 12</Stra_e>
+    <PLZ>84513</PLZ>
+    <Ort>Erharting</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5318</Bf__Nr_>
+    <Station>Rohrbach (Oberbay)</Station>
+    <Bf_DS_100_Abk_>MROH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Prinzregentenstraße</Stra_e>
+    <PLZ>83024</PLZ>
+    <Ort>Rosenheim</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>8259</Bf__Nr_>
+    <Station>Rosenheim Hochschule</Station>
+    <Bf_DS_100_Abk_>MROS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 15</Stra_e>
+    <PLZ>74585</PLZ>
+    <Ort>Rot am See</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>KreisVerkehr Schwäbisch Hall</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>5376</Bf__Nr_>
+    <Station>Rot am See</Station>
+    <Bf_DS_100_Abk_>TRS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>An der St 2079</Stra_e>
+    <PLZ>83543</PLZ>
+    <Ort>Rott a.Inn</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5396</Bf__Nr_>
+    <Station>Rott (Inn)</Station>
+    <Bf_DS_100_Abk_>MRT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Fliederweg 1</Stra_e>
+    <PLZ>83324</PLZ>
+    <Ort>Ruhpolding</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5426</Bf__Nr_>
+    <Station>Ruhpolding</Station>
+    <Bf_DS_100_Abk_>MRPD</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Ernst-Hatz-Strasse 11-15</Stra_e>
+    <PLZ>94099</PLZ>
+    <Ort>Ruhstorf a.d.Rott</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Landkreis Passau</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5427</Bf__Nr_>
+    <Station>Ruhstorf</Station>
+    <Bf_DS_100_Abk_>MRUS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Am Bahnhof 16</Stra_e>
+    <PLZ>74589</PLZ>
+    <Ort>Satteldorf</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>KreisVerkehr Schwäbisch Hall</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>5515</Bf__Nr_>
+    <Station>Satteldorf</Station>
+    <Bf_DS_100_Abk_>TSAT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Fiedlerstraße 1</Stra_e>
+    <PLZ>83342</PLZ>
+    <Ort>Tacherting</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5534</Bf__Nr_>
+    <Station>Schalchen</Station>
+    <Bf_DS_100_Abk_>MSCA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 3</Kategorie_Vst>
+    <Stra_e>Steimelweg</Stra_e>
+    <PLZ>57339</PLZ>
+    <Ort>Erndtebrück</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Zweckverband / Verkehrsgemeinschaft Westfalen-Süd</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Nordrhein-Westfalen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>5539</Bf__Nr_>
+    <Station>Schameder</Station>
+    <Bf_DS_100_Abk_>ESCA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Drebach</Ort>
+    <Aufgabentr_ger>Zweckverband Nahverkehr Westfalen-Lippe</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5543</Bf__Nr_>
+    <Station>Scharfenstein</Station>
+    <Bf_DS_100_Abk_>DSS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstr. 5-15</Stra_e>
+    <PLZ>83135</PLZ>
+    <Ort>Schechen</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5551</Bf__Nr_>
+    <Station>Schechen</Station>
+    <Bf_DS_100_Abk_>MSC</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Scheibenberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5553</Bf__Nr_>
+    <Station>Scheibenberg</Station>
+    <Bf_DS_100_Abk_>DSG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Schlettau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5589</Bf__Nr_>
+    <Station>Schlettau (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DSCL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>63936</PLZ>
+    <Ort>Schneeberg</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>5625</Bf__Nr_>
+    <Station>Schneeberg im Odenwald</Station>
+    <Bf_DS_100_Abk_>NSCB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 14</Stra_e>
+    <PLZ>74575</PLZ>
+    <Ort>Schrozberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>KreisVerkehr Schwäbisch Hall</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>5689</Bf__Nr_>
+    <Station>Schrozberg</Station>
+    <Bf_DS_100_Abk_>TSZG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>Bahnhof 1</Stra_e>
+    <PLZ>7427</PLZ>
+    <Ort>Schwarzburg</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>5720</Bf__Nr_>
+    <Station>Schwarzburg</Station>
+    <Bf_DS_100_Abk_>USCG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Schwarzenberg</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5728</Bf__Nr_>
+    <Station>Schwarzenberg (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DSC</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Schwarzenberg</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5729</Bf__Nr_>
+    <Station>Schwarzenberg (Erzgeb) Hp</Station>
+    <Bf_DS_100_Abk_>DSCH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Schwarzenberg</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5730</Bf__Nr_>
+    <Station>Schwarzenberg-Neuwelt</Station>
+    <Bf_DS_100_Abk_>DSCN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Sehmatal</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5801</Bf__Nr_>
+    <Station>Sehma</Station>
+    <Bf_DS_100_Abk_>DSEH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Seiboldsdorfer Mühle 2</Stra_e>
+    <PLZ>83278</PLZ>
+    <Ort>Traunstein</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5803</Bf__Nr_>
+    <Station>Seiboldsdorf</Station>
+    <Bf_DS_100_Abk_>MSBD</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>83313</PLZ>
+    <Ort>Siegsdorf</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5845</Bf__Nr_>
+    <Station>Siegsdorf</Station>
+    <Bf_DS_100_Abk_>MSGD</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Wilkau-Haßlau</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>5858</Bf__Nr_>
+    <Station>Silberstraße</Station>
+    <Bf_DS_100_Abk_>DSBS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofplatz 1</Stra_e>
+    <PLZ>84359</PLZ>
+    <Ort>Simbach a.Inn</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Rottal-Inn</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5859</Bf__Nr_>
+    <Station>Simbach (Inn)</Station>
+    <Bf_DS_100_Abk_>MSBI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Münchhausen</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>5862</Bf__Nr_>
+    <Station>Simtshausen</Station>
+    <Bf_DS_100_Abk_>FSMH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>OBS</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 1</Stra_e>
+    <PLZ>7429</PLZ>
+    <Ort>Unterweißbach</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Thüringen</Bundesland>
+    <Regionalbereich>Oberweißbacher Berg- und Schwarzatalbahn (OBS)</Regionalbereich>
+    <Bf__Nr_>5874</Bf__Nr_>
+    <Station>Sitzendorf-Unterweißbach</Station>
+    <Bf_DS_100_Abk_>USDF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Heckenstr. 10-21</Stra_e>
+    <PLZ>83564</PLZ>
+    <Ort>Soyen</Ort>
+    <Aufgabentr_ger>Nahverkehrsservicegesellschaft Thüringen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5914</Bf__Nr_>
+    <Station>Soyen</Station>
+    <Bf_DS_100_Abk_>MSY</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Hauptstraße</Stra_e>
+    <PLZ>97909</PLZ>
+    <Ort>Stadtprozelten</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>5959</Bf__Nr_>
+    <Station>Stadtprozelten</Station>
+    <Bf_DS_100_Abk_>NSPO</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Fischergasse</Stra_e>
+    <PLZ>83301</PLZ>
+    <Ort>Traunreut</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>5978</Bf__Nr_>
+    <Station>Stein a d Traun</Station>
+    <Bf_DS_100_Abk_>MSTN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 30</Stra_e>
+    <PLZ>85643</PLZ>
+    <Ort>Steinhöring</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Münchener Verkehrs- und Tarifverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6000</Bf__Nr_>
+    <Station>Steinhöring</Station>
+    <Bf_DS_100_Abk_>MSHG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Obere Bahnhofsstraße</Stra_e>
+    <PLZ>35094</PLZ>
+    <Ort>Lahntal</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6022</Bf__Nr_>
+    <Station>Sterzhausen</Station>
+    <Bf_DS_100_Abk_>FSZH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Niedernberger Straße 14</Stra_e>
+    <PLZ>63834</PLZ>
+    <Ort>Sulzbach a.Main</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>6110</Bf__Nr_>
+    <Station>Sulzbach am Main</Station>
+    <Bf_DS_100_Abk_>NSUZ</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstr. 35</Stra_e>
+    <PLZ>94099</PLZ>
+    <Ort>Ruhstorf a.d.Rott</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft Landkreis Passau</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6109</Bf__Nr_>
+    <Station>Sulzbach (Inn)</Station>
+    <Bf_DS_100_Abk_>MSBH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofsstraße </Stra_e>
+    <PLZ>83342</PLZ>
+    <Ort>Tacherting</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6133</Bf__Nr_>
+    <Station>Tacherting</Station>
+    <Bf_DS_100_Abk_>MTCH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 17</Stra_e>
+    <PLZ>97941</PLZ>
+    <Ort>Tauberbischofsheim</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>6152</Bf__Nr_>
+    <Station>Tauberbischofsheim</Station>
+    <Bf_DS_100_Abk_>TTB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Thalheim</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6187</Bf__Nr_>
+    <Station>Thalheim (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DTAL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Thermalbad Wiesenbad</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6196</Bf__Nr_>
+    <Station>Thermalbad Wiesenbad</Station>
+    <Bf_DS_100_Abk_>DWIE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 6</Stra_e>
+    <PLZ>84529</PLZ>
+    <Ort>Tittmoning</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6222</Bf__Nr_>
+    <Station>Tittmoning-Wiesmühl</Station>
+    <Bf_DS_100_Abk_>MWSL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofplatz 1</Stra_e>
+    <PLZ>84513</PLZ>
+    <Ort>Töging a.Inn</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6223</Bf__Nr_>
+    <Station>Töging (Inn)</Station>
+    <Bf_DS_100_Abk_>MTG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Traundorf 24</Stra_e>
+    <PLZ>83313</PLZ>
+    <Ort>Siegsdorf</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6239</Bf__Nr_>
+    <Station>Traundorf</Station>
+    <Bf_DS_100_Abk_>MTRD</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Munastraße 10 a</Stra_e>
+    <PLZ>83301</PLZ>
+    <Ort>Traunreut</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>8127</Bf__Nr_>
+    <Station>Traunreut</Station>
+    <Bf_DS_100_Abk_>MTRT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Wolkersdorfer Straße</Stra_e>
+    <PLZ>83278</PLZ>
+    <Ort>Traunstein</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6277</Bf__Nr_>
+    <Station>Trostberg</Station>
+    <Bf_DS_100_Abk_>MTSB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofsstraße 17</Stra_e>
+    <PLZ>83308</PLZ>
+    <Ort>Trostberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6285</Bf__Nr_>
+    <Station>Tulling</Station>
+    <Bf_DS_100_Abk_>MTUL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>EBE 20 1</Stra_e>
+    <PLZ>85643</PLZ>
+    <Ort>Steinhöring</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Münchener Verkehrs- und Tarifverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6289</Bf__Nr_>
+    <Station>Tüßling</Station>
+    <Bf_DS_100_Abk_>MTLG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Am Bahnhof 1-3</Stra_e>
+    <PLZ>84577</PLZ>
+    <Ort>Tüßling</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>7511</Bf__Nr_>
+    <Station>Twiste</Station>
+    <Bf_DS_100_Abk_>FTW</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Hauptstraße</Stra_e>
+    <PLZ>34477</PLZ>
+    <Ort>Twistetal</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6332</Bf__Nr_>
+    <Station>Ungedanken</Station>
+    <Bf_DS_100_Abk_>FUNG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>An der B 253</Stra_e>
+    <PLZ>34560</PLZ>
+    <Ort>Fritzlar</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6343</Bf__Nr_>
+    <Station>Unteraschau</Station>
+    <Bf_DS_100_Abk_>MUA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Unteraschau 12</Stra_e>
+    <PLZ>83329</PLZ>
+    <Ort>Waging a.See</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6381</Bf__Nr_>
+    <Station>Usseln</Station>
+    <Bf_DS_100_Abk_>FUS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofsstraße</Stra_e>
+    <PLZ>34508</PLZ>
+    <Ort>Willingen</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6420</Bf__Nr_>
+    <Station>Vilsbiburg</Station>
+    <Bf_DS_100_Abk_>MVSB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstr. 6</Stra_e>
+    <PLZ>84137</PLZ>
+    <Ort>Vilsbiburg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>7473</Bf__Nr_>
+    <Station>Vöhl Ederbringhausen</Station>
+    <Bf_DS_100_Abk_>FEDN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Edergasse</Stra_e>
+    <PLZ>34516</PLZ>
+    <Ort>Vöhl</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>7486</Bf__Nr_>
+    <Station>Vöhl Herzhausen</Station>
+    <Bf_DS_100_Abk_>FHZN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>an der L 3084</Stra_e>
+    <PLZ>34516</PLZ>
+    <Ort>Vöhl</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>7508</Bf__Nr_>
+    <Station>Vöhl Schmittlotheim</Station>
+    <Bf_DS_100_Abk_>FSLM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Am Hüttenrain</Stra_e>
+    <PLZ>34516</PLZ>
+    <Ort>Vöhl</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>8308</Bf__Nr_>
+    <Station>Vöhl Thalitter</Station>
+    <Bf_DS_100_Abk_>FTHA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>34516</PLZ>
+    <Ort>Vöhl</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6446</Bf__Nr_>
+    <Station>Volkmarsen</Station>
+    <Bf_DS_100_Abk_>FVA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Oberer Zollstock</Stra_e>
+    <PLZ>34471</PLZ>
+    <Ort>Volkmarsen</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6465</Bf__Nr_>
+    <Station>Waging</Station>
+    <Bf_DS_100_Abk_>MWGN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Westendstraße 14-24</Stra_e>
+    <PLZ>83329</PLZ>
+    <Ort>Waging a.See</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6488</Bf__Nr_>
+    <Station>Waldkirchen (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DWK</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Wildenstein</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>7870</Bf__Nr_>
+    <Station>Waldkraiburg-Kraiburg</Station>
+    <Bf_DS_100_Abk_>MWKG</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>An der Bayernbrücke 1</Stra_e>
+    <PLZ>84478</PLZ>
+    <Ort>Waldkraiburg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>6505</Bf__Nr_>
+    <Station>Walldürn</Station>
+    <Bf_DS_100_Abk_>RWDN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Eisenbahnstraße 37</Stra_e>
+    <PLZ>74731</PLZ>
+    <Ort>Walldürn</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>8269</Bf__Nr_>
+    <Station>Wallhausen (Württ)</Station>
+    <Bf_DS_100_Abk_>TWAL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße</Stra_e>
+    <PLZ>74599</PLZ>
+    <Ort>Wallhausen</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>KreisVerkehr Schwäbisch Hall</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6524</Bf__Nr_>
+    <Station>Walthersdorf (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DWF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Crottendorf</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6543</Bf__Nr_>
+    <Station>Warmbad</Station>
+    <Bf_DS_100_Abk_>DWAB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Wolkenstein</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6559</Bf__Nr_>
+    <Station>Wasserburg (Inn) Bahnhof</Station>
+    <Bf_DS_100_Abk_>MWSB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Bahnhofstrasse</Stra_e>
+    <PLZ>83512</PLZ>
+    <Ort>Wasserburg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Münchener Verkehrs- und Tarifverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6583</Bf__Nr_>
+    <Station>Wega</Station>
+    <Bf_DS_100_Abk_>FWGA</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Ederstraße</Stra_e>
+    <PLZ>34537</PLZ>
+    <Ort>Bad Wildungen</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6589</Bf__Nr_>
+    <Station>Weibhausen</Station>
+    <Bf_DS_100_Abk_>MWBH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Eschenweg 5-6</Stra_e>
+    <PLZ>83379</PLZ>
+    <Ort>Wonneberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>6605</Bf__Nr_>
+    <Station>Weikersheim</Station>
+    <Bf_DS_100_Abk_>TWM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 1</Stra_e>
+    <PLZ>97990</PLZ>
+    <Ort>Weikersheim</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>6611</Bf__Nr_>
+    <Station>Weilbach in Unterfranken</Station>
+    <Bf_DS_100_Abk_>NWE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Hauptstraße</Stra_e>
+    <PLZ>63937</PLZ>
+    <Ort>Weilbach</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>6698</Bf__Nr_>
+    <Station>Wertheim</Station>
+    <Bf_DS_100_Abk_>TWT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 8</Stra_e>
+    <PLZ>97877</PLZ>
+    <Ort>Wertheim</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Baden-Württemberg</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>6699</Bf__Nr_>
+    <Station>Wertheim-Bestenheid</Station>
+    <Bf_DS_100_Abk_>TWTB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 1</Kategorie_Vst>
+    <Stra_e>Kiesweg</Stra_e>
+    <PLZ>97877</PLZ>
+    <Ort>Wertheim</Ort>
+    <Aufgabentr_ger>Nahverkehrsgesellschaft Baden-Württemberg</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Rhein-Neckar</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6727</Bf__Nr_>
+    <Station>Wetter (Hess-Nass)</Station>
+    <Bf_DS_100_Abk_>FWT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>35083</PLZ>
+    <Ort>Wetter</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>7121</Bf__Nr_>
+    <Station>Wiesa (Erzgeb)</Station>
+    <Bf_DS_100_Abk_>DWIS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Thermalbad Wiesenbad</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6753</Bf__Nr_>
+    <Station>Wiesenburg (Sachs)</Station>
+    <Bf_DS_100_Abk_>DWSB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Wildenfels</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6754</Bf__Nr_>
+    <Station>Wiesenfeld</Station>
+    <Bf_DS_100_Abk_>FWIF</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Am Bahnhof</Stra_e>
+    <PLZ>35099</PLZ>
+    <Ort>Burgwald</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Südostbayernbahn (SOB)</Regionalbereich>
+    <Bf__Nr_>6760</Bf__Nr_>
+    <Station>Wiesmühl (Alz)</Station>
+    <Bf_DS_100_Abk_>MWSM</Bf_DS_100_Abk_>
+    <Kategorie_Vst>SOB</Kategorie_Vst>
+    <Stra_e>Mühldorfer Straße </Stra_e>
+    <PLZ>84549</PLZ>
+    <Ort>Engelsberg</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>-</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6774</Bf__Nr_>
+    <Station>Wilhelmshütte (Lahn)</Station>
+    <Bf_DS_100_Abk_>FWUE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 2</Kategorie_Vst>
+    <Stra_e>Buderusstraße</Stra_e>
+    <PLZ>35232</PLZ>
+    <Ort>Dautphetal</Ort>
+    <Aufgabentr_ger>Rhein-Main-Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Rhein-Main-Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6776</Bf__Nr_>
+    <Station>Wilischthal</Station>
+    <Bf_DS_100_Abk_>DWL</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Amtsberg</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6777</Bf__Nr_>
+    <Station>Wilkau-Haßlau</Station>
+    <Bf_DS_100_Abk_>DWI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Am Markt</Stra_e>
+    <PLZ>8112</PLZ>
+    <Ort>Wilkau-Haßlau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6778</Bf__Nr_>
+    <Station>Willingen</Station>
+    <Bf_DS_100_Abk_>FWLN</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Briloner Straße 49</Stra_e>
+    <PLZ>34508</PLZ>
+    <Ort>Willingen</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>8232</Bf__Nr_>
+    <Station>Willingen-Stryck</Station>
+    <Bf_DS_100_Abk_>FSY</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Auf dem Wakenfeld</Stra_e>
+    <PLZ>34508</PLZ>
+    <Ort>Willingen</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6841</Bf__Nr_>
+    <Station>Witzschdorf</Station>
+    <Bf_DS_100_Abk_>DWIT</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Gornau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6857</Bf__Nr_>
+    <Station>Wolfhagen</Station>
+    <Bf_DS_100_Abk_>FWFH</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Bahnhofstraße 3</Stra_e>
+    <PLZ>34466</PLZ>
+    <Ort>Wolfhagen</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>6869</Bf__Nr_>
+    <Station>Wolkenstein</Station>
+    <Bf_DS_100_Abk_>DWO</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Wolkenstein</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Bayern</Bundesland>
+    <Regionalbereich>Westfrankenbahn (WFB)</Regionalbereich>
+    <Bf__Nr_>6892</Bf__Nr_>
+    <Station>Wörth am Main</Station>
+    <Bf_DS_100_Abk_>NWOE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>WFB 2</Kategorie_Vst>
+    <Stra_e>Luxburgstraße 22</Stra_e>
+    <PLZ>63939</PLZ>
+    <Ort>Wörth a.Main</Ort>
+    <Aufgabentr_ger>Bayrische Eisenbahn Gesellschaft</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsgemeinschaft am Bayerischen Untermain</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>6997</Bf__Nr_>
+    <Station>Zennern</Station>
+    <Bf_DS_100_Abk_>FZE</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>Mainzer Straße 1 - 5</Stra_e>
+    <PLZ>34590</PLZ>
+    <Ort>Wabern</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>7018</Bf__Nr_>
+    <Station>Zierenberg</Station>
+    <Bf_DS_100_Abk_>FZB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>An der Bahn 12</Stra_e>
+    <PLZ>34289</PLZ>
+    <Ort>Zierenberg</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Hessen</Bundesland>
+    <Regionalbereich>Kurhessenbahn (KHB)</Regionalbereich>
+    <Bf__Nr_>8012</Bf__Nr_>
+    <Station>Zierenberg-Rosental</Station>
+    <Bf_DS_100_Abk_>FZBR</Bf_DS_100_Abk_>
+    <Kategorie_Vst>KHB 1</Kategorie_Vst>
+    <Stra_e>An der L 3214</Stra_e>
+    <PLZ>34289</PLZ>
+    <Ort>Zierenberg</Ort>
+    <Aufgabentr_ger>Nordhessischer Verkehrsverbund</Aufgabentr_ger>
+    <Verkehrsverb_nde>Nordhessischer Verkehrsverbund</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>7038</Bf__Nr_>
+    <Station>Zöblitz-Pobershau</Station>
+    <Bf_DS_100_Abk_>DZB</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Zöblitz</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>7055</Bf__Nr_>
+    <Station>Zschopau</Station>
+    <Bf_DS_100_Abk_>DZP</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Zschopau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>8227</Bf__Nr_>
+    <Station>Zschopau Ost</Station>
+    <Bf_DS_100_Abk_>DZPO</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Zschopau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>7071</Bf__Nr_>
+    <Station>Zwickau-Schedewitz</Station>
+    <Bf_DS_100_Abk_>DZWS</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>Bahnstraße/Tonstraße</Stra_e>
+    <PLZ>8056</PLZ>
+    <Ort>Zwickau</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+  <station>
+    <Bundesland>Sachsen</Bundesland>
+    <Regionalbereich>Erzgebirgsbahn (EGB)</Regionalbereich>
+    <Bf__Nr_>7076</Bf__Nr_>
+    <Station>Zwönitz</Station>
+    <Bf_DS_100_Abk_>DZI</Bf_DS_100_Abk_>
+    <Kategorie_Vst>EGB</Kategorie_Vst>
+    <Stra_e>-</Stra_e>
+    <PLZ>-</PLZ>
+    <Ort>Zwönitz</Ort>
+    <Aufgabentr_ger>Verkehrsverbund Mittelsachsen</Aufgabentr_ger>
+    <Verkehrsverb_nde>Verkehrsverbund Mittelsachsen</Verkehrsverb_nde>
+    <Fernverkehr>nein</Fernverkehr>
+    <Nahverkehr>ja</Nahverkehr>
+  </station>
+</deutschebahn>

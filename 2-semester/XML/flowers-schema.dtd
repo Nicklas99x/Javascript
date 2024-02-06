@@ -1,0 +1,12 @@
+<!DOCTYPE blomsterforretninger>
+{
+<!ELEMENT blomsterbinder (forretning, adresse, telefon, (buket | dekoration)*)>
+<!ELEMENT forretning (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT buket (navn, pris)>
+<!ELEMENT dekoration (navn, pris)>
+
+<!ELEMENT navn (#PCDATA)>
+<!ELEMENT pris (#PCDATA)>
+}

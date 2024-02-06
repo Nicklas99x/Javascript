@@ -1,0 +1,37 @@
+<!DOCTYPE blomsterbinder SYSTEM "flowers-schema.dtd">
+<blomsterforretninger>
+    <blomsterbinder>
+        <forretning>Flora's Blomster</forretning>
+        <adresse>Blomstergade 5, 1234 Byen</adresse>
+        <telefon>12345678</telefon>
+        <buket>
+            <navn>Bryllupsbuket</navn>
+            <pris>500</pris>
+        </buket>
+        <dekoration>
+            <navn>Borddekoration</navn>
+            <pris>200</pris>
+        </dekoration>
+        <buket>
+            <navn>Fødselsdagsbuket</navn>
+            <pris>300</pris>
+        </buket>
+    </blomsterbinder>
+    <blomsterbinder>
+        <forretning>Vanessa's Blomster</forretning>
+        <adresse>Blomsterstrædet 23, 5678 Byen</adresse>
+        <telefon>23456789</telefon>
+        <buket>
+            <navn>Bryllupsbuket</navn>
+            <pris>600</pris>
+        </buket>
+        <dekoration>
+            <navn>Borddekoration</navn>
+            <pris>250</pris>
+        </dekoration>
+        <buket>
+            <navn>Fødselsdagsbuket</navn>
+            <pris>350</pris>
+        </buket>
+    </blomsterbinder>
+</blomsterforretninger>

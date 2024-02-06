@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Definition af JS-Identifier-type -->
+  <xs:simpleType name="JSIdentifier">
+    <xs:restriction base="xs:string">
+      <!-- Regler for JS-identifikatorer -->
+      <xs:pattern value="[a-zA-Z_$][a-zA-Z0-9_$]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- Eksempel på brug af JS-Identifier-type -->
+  <xs:element name="example">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="identifier" type="JSIdentifier"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
