@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tog</title>
+</head>
+<body>
+    <div id="app">
+        <p>{{ sekundt }}</p>
+        <img v-if="sekundt % 3 == 0" src="http://www.railfaneurope.net/pix/at/electric/1016/017-019/1016_017_Vf.jpg">
+        <img v-else-if="sekundt % 5 == 0 && sekundt % 3 !== 0"src="http://www.railfaneurope.net/pix/de/electric/120_1/orientrot/101-119/db120ic.jpg">
+        <img v-else src="http://www.railfaneurope.net/pix/de/electric/historic/103_1/rot-beige/184/misc/103_184-8m.jpg">
+        <br>
+        <img v-for="x in urls" v-bind:src="x" width="300" height="200">
+    </div>
+    <style>
+
+    </style>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data(){
+                var sekundt = new Date().getSeconds();
+                return{
+                    sekundt,
+                    urls:[
+                        "http://www.railfaneurope.net/pix/at/electric/1016/017-019/1016_017_Vf.jpg",
+                        "http://www.railfaneurope.net/pix/de/electric/120_1/orientrot/101-119/db120ic.jpg",
+                        "http://www.railfaneurope.net/pix/de/electric/historic/103_1/rot-beige/184/misc/103_184-8m.jpg"
+                    ]
+                }
+            }
+        })
+        app.mount('#app')
+    </script>
+</body>
+</html>

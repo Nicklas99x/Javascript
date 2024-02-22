@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tog</title>
+</head>
+<body>
+    <div id="app">
+        <ul v-for="(x, index) in urls">
+            <li>
+                <h2>{{`Billede ${(index + 1)}: ${x.slice(x.lastIndexOf('/')+1)}`}}</h2>
+                <img v-bind:src="x" width="300" height="200">
+            </li>
+        </ul>
+    </div>
+    <style>
+
+    </style>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data(){
+                return{
+                    urls:[
+                        "http://www.railfaneurope.net/pix/at/electric/1016/017-019/1016_017_Vf.jpg",
+                        "http://www.railfaneurope.net/pix/de/electric/120_1/orientrot/101-119/db120ic.jpg",
+                        "http://www.railfaneurope.net/pix/de/electric/historic/103_1/rot-beige/184/misc/103_184-8m.jpg"
+                    ]
+                }
+            }
+        })
+        app.mount('#app')
+    </script>
+</body>
+</html>

@@ -5,6 +5,55 @@
     <title>Vue instance</title>
 </head>
 <body>
-    
+    <div id="app">
+        <p>{{ tal1 }}</p>
+        <p>{{ tal2 }}</p>
+        <p>{{ produkt }}</p>
+
+        <p>{{ randomNumber }}</p>
+
+        <div v-show="engine > 0.5 || coach > 0.5 ? true : false">Taurus</div>
+    </div>
+    <style>
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .orange{
+            background-color: orange;
+        }
+    </style>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data(){
+                var engine = Math.random();
+                var coach = Math.random();
+                var randomNumber = Math.floor(Math.random() * 4) + 1
+
+                var tal1 = Math.floor(Math.random()*10) + 1;
+                var tal2 = Math.floor(Math.random()*10) + 1;
+                var produkt = tal1 + tal2;
+                return {
+                    tal1,
+                    tal2,
+                    produkt,
+                    red: "red",
+                    blue: "blue",
+                    green: "green",
+                    orange: "orange",
+                    randomNumber,
+                    engine,
+                    coach
+                }
+            }
+        });
+        app.mount('#app')
+    </script>
 </body>
 </html>

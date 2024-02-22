@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogstaver og eventhandling</title>
+    <style>    
+        #app > div {
+          width: 256px;
+          height: 256px;    
+          color: white;        
+        }    
+      </style>
+</head>
+<body>
+    <div id="app">
+        <p>Bevæg musen:</p>
+        <div v-on:mousemove="mousePos($event)" v-bind:style="{ backgroundColor: 'rgb('+rød+','+grøn+','+blå+')'}">
+            <span>rød: {{ rød }}</span><br><span>grøn: {{ grøn }}</span><br><span>blå: {{blå}}</span>
+            <h1 v-bind:style="{fontSize: size+'px'}">Event</h1>
+        </div>
+    </div>
+    <style>
+
+    </style>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data(){
+                return{
+                    rød: 0, grøn: 0, blå:0, size:48
+                }
+            },
+            methods:{
+                mousePos(event){
+                    if(event.buttons === 1){
+                        this.rød = event.offsetX;
+                        this.grøn = event.offsetX;
+                        this.blå = event.offsetX;
+                        this.size = event.offsetY/8;
+                    }
+                }
+            }
+        })
+        app.mount('#app')
+    </script>
+</body>
+</html>
