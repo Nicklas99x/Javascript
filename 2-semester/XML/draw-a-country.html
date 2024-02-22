@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Draw Polygon</title>
+<style>
+    canvas {
+        border: 1px solid #000;
+    }
+</style>
+</head>
+<body>
+<canvas id="polygonCanvas" width="800" height="600"></canvas>
+<script>
+    // XML string containing coordinates
+    var xml = '<Polygon><outerBoundaryIs><LinearRing><coordinates>9.273,47.65,0 9.548,47.535,0 9.548,47.534,0 9.555,47.511,0 9.585,47.481,0 9.622,47.469,0 9.65,47.452,0 9.65,47.41,0 9.64,47.395,0 9.601,47.361,0 9.596,47.352,0 9.591,47.335,0 9.587,47.328,...</coordinates></LinearRing></outerBoundaryIs></Polygon>';
+    var xml2 = xml.split(",0");
+
+    // Function to parse the coordinates from the XML string
+    function parseCoordinates(xmlString) {
+        var parser = new DOMParser();
+        var xmlDoc = parser.parseFromString(xmlString, "text/xml");
+        var coordinatesString = xmlDoc.getElementsByTagName("coordinates")[0].textContent.trim();
+        var coordinatesArray = coordinatesString.split(/\s+/).map(coord => coord.split(',').slice(0, 2).map(Number));
+        return coordinatesArray;
+    }
+
+    // Function to draw the polygon on the canvas
+    function drawPolygon(coordinates) {
+        var canvas = document.getElementById('polygonCanvas');
+        if (canvas.getContext) {
+            var ctx = canvas.getContext('2d');
+            ctx.beginPath();
+            ctx.moveTo(coordinates[0][0], coordinates[0][1]);
+            for (var i = 1; i < coordinates.length; i++) {
+                ctx.lineTo(coordinates[i][0], coordinates[i][1]);
+            }
+            ctx.closePath();
+            ctx.stroke();
+        }
+    }
+
+    // Parse coordinates and draw the polygon
+    var coordinates = parseCoordinates(xml2);
+    drawPolygon(coordinates);
+</script>
+</body>
+</html>

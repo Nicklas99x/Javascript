@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <p id="example"></p>
+  <script>
+    var xslTekst = `<!-- Example XSLT stylesheet --><xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"><xsl:template match="/">
+      <html><head><title>Transformed Document</title></head>
+      <body><h1><xsl:value-of select="root/title" /></h1><ul><xsl:for-each select="root/item"><li><xsl:value-of select="." /></li>
+      </xsl:for-each></ul>
+      </body></html></xsl:template></xsl:stylesheet>`;
+    var xmlTekst = '<?xml version="1.0"?><root><title>Sample Document</title><item>Item 1</item><item>Item 2</item></root>';
+    var xsltProcessor = new XSLTProcessor();
+    var parser = new DOMParser();
+    xsl = parser.parseFromString(xslTekst, "application/xml");
+    xml = parser.parseFromString(xmlTekst, "application/xml");
+    xsltProcessor.importStylesheet(xsl);
+    var resultDocument = xsltProcessor.transformToFragment(xml, document);
+    console.log(resultDocument);
+    document.getElementById("example").appendChild(resultDocument);
+  </script>
+</body>
+
+</html>
