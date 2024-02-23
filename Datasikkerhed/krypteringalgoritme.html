@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caesar Cipher</title>
+</head>
+<body>
+<h2>Caesar Cipher</h2>
+<div>
+    <label for="inputText">Input tekst:</label>
+    <input type="text" id="inputText">
+</div>
+<div>
+    <label for="key">Nøgle:</label>
+    <input type="number" id="key" min="0">
+</div>
+<button id="encryptBtn">Krypter</button>
+<button id="decryptBtn">Dekrypter</button>
+<div>
+    <h3>Krypteret Tekst:</h3>
+    <p id="encryptedText"></p>
+</div>
+<div>
+    <h3>Resultat:</h3>
+    <p id="result"></p>
+</div>
+
+<script src="/Datasikkerhed/krypteringsalgoritme.js"></script>
+<script src="/Datasikkerhed/app.js"></script>
+</body>
+</html>
