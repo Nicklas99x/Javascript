@@ -5,13 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
         let inputText = document.getElementById("inputText").value;
         let key = parseInt(document.getElementById("key").value);
 
-        if (!inputText || isNaN(key)) {
-            alert("Indtast venligst gyldig tekst og nøgle.");
-            return;
+        try {
+            encryptedText = caesarAlgoritm(inputText, key);
+            document.getElementById("encryptedText").textContent = "Krypteret tekst: " + encryptedText;
+        } catch (error) {
+            alert(error.message);
         }
-
-        encryptedText = caesarAlgoritm(inputText, key);
-        document.getElementById("encryptedText").textContent = "Krypteret tekst: " + encryptedText;
     });
 
     document.getElementById("decryptBtn").addEventListener("click", function() {
