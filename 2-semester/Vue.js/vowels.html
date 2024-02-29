@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tog</title>
+</head>
+<body>
+    <div id="app">
+        <label>Skriv noget
+            <input type="text" v-model="tekst">
+            <p>Teksten indeholder {{eer}} vokaler</p>
+        </label>
+    </div>
+    <style>
+
+    </style>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data(){
+                return{
+                    tekst:""
+                }
+            },
+            computed:{
+                eer(){
+                    var tekst2 = 0;
+                    for (var i = 0; i < this.tekst.length; i++){
+                        if(['a', 'e', 'i', 'o', 'u', 'y', 'æ', 'ø', 'å', 'A', 'E', 'I', 'O', 'U', 'Y', 'Æ', 'Ø', 'Å'].includes(this.tekst[i])){
+                            tekst2++
+                        }
+                    }
+                    return tekst2;
+                }
+            }
+        })
+        app.mount('#app')
+    </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tog</title>
+</head>
+<body>
+    <div id="app">
+        <input v-model="inputText" placeholder="Indtast tekst her" @input="analyzeText">
+        <p>
+            <span v-for="(word, index) in words" :key="index" :style="{ color: word.color }">{{ word.text+" " }} </span>
+        </p>
+      </div>
+    <style>
+
+    </style>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data(){
+                return{
+                    inputText:'',
+                    words:[]
+                }
+            },
+            methods:{
+                analyzeText(){
+                    const inputTrimmed = this.inputText.trim();
+                    if (!inputTrimmed) {
+                        this.words = [];
+                        this.wordsWithSpaces = [];
+                        return;
+                    }
+
+                    const words = inputTrimmed.split(/\s+/);
+                    this.words = words.map(word => {
+                        const vowels = (word.match(/[aeiouyæøå]/gi) || []).length;
+                        const consonants = (word.match(/[bcdfghjklmnpqrstvwxz]/gi) || []).length;
+                        let color = 'black';
+                        if (vowels > consonants) {
+                            color = 'red';
+                        } else if (consonants > vowels) {
+                            color = 'green';
+                        }
+                        return { text: word, color: color };
+                    });
+                }
+            }
+        })
+        app.mount('#app')
+    </script>
+</body>
+</html>
