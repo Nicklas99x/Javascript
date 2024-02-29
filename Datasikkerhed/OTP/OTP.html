@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="otpForm">
+        <label for="message">Besked:</label>
+        <input type="text" id="message" name="message">
+        <button type="button" onclick="encryptMessage()">Krypter</button>
+        <button type="button" onclick="decryptMessage()">Dekrypter</button>
+    </form>
+    <input type="hidden" id="key">
+    <div id="output"></div>
+    <script src="/Datasikkerhed/OTP/OTP.js"></script>
+</body>
+</html>
