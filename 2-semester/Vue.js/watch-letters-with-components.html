@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tog</title>
+</head>
+<body>
+    <div id="app">
+        <input-component v-model:text="inputText" @text-analyzed="updateWords"></input-component>
+        <output-component :words="words"></output-component>
+    </div>
+    <style>
+    </style>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const InputComponent = {
+            emits: ['update:modelValue', 'text-analyzed'],
+            props: ['modelValue'],
+            template: `
+                <input ref="input" :value="modelValue" placeholder="Indtast tekst her" @input="analyzeText">
+            `,
+            setup(props, { emit }) {
+                const updateWords = () => {
+                    emit('text-analyzed');
+                };
+
+                const analyzeText = (event) => {
+                    const newValue = event.target.value;
+                    emit('update:modelValue', newValue);
+                    updateWords();
+                };
+
+                return { analyzeText };
+            }
+        };
+
+        const OutputComponent = {
+            props: ['words'],
+            template: `
+                <div v-if="words && words.length">
+                    <p v-for="(word, index) in words" :key="index" :style="{ backgroundColor: word.backgroundColor, color: word.color }">
+                        {{ word.text }}
+                    </p>
+                </div>
+            `
+        };
+
+        const app = Vue.createApp({
+            data(){
+                return{
+                    inputText:'',
+                    words:[]
+                }
+            },
+            methods:{
+                updateWords(){
+                    const inputTrimmed = this.inputText.trim();
+                    if (!inputTrimmed) {
+                        this.words = [];
+                        return;
+                    }
+                    const words = inputTrimmed.split(/\s+/);
+                    this.words = words.map(word => {
+                        const vowels = (word.match(/[aeiouyæøå]/gi) || []).length;
+                        const consonants = (word.match(/[bcdfghjklmnpqrstvwxz]/gi) || []).length;
+                        let backgroundColor = 'blue';
+                        let color = 'orange';
+
+                        if (vowels > consonants) {
+                            backgroundColor = 'red';
+                            color = 'white';
+                        } else if (consonants > vowels) {
+                            backgroundColor = 'green';
+                            color = 'white';
+                        }
+                        return { text: word, backgroundColor, color };
+                    });
+                }
+            }
+        });
+
+        app.component('input-component', InputComponent);
+        app.component('output-component', OutputComponent);
+        app.mount('#app');
+    </script>
+</body>
+</html>

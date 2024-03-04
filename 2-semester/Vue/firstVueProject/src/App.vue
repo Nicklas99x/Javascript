@@ -1,47 +1,41 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-</script>
-
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="Fuck you Hoyoverse" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <div id="app">
+    <input v-model="inputText" placeholder="Indtast tekst her" @input="analyzeText">
+    <p>
+      <span v-for="(word, index) in words" :key="index" :style="{ color: word.color }">{{ word.text + " " }}</span>
+    </p>
+  </div>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+<script>
+export default {
+  data() {
+    return {
+      inputText: '',
+      words: []
+    }
+  },
+  methods: {
+    analyzeText() {
+      const inputTrimmed = this.inputText.trim();
+      if (!inputTrimmed) {
+        this.words = [];
+        return;
+      }
+      const words = inputTrimmed.split(/\s+/);
+      this.words = words.map(word => {
+        const vowels = (word.match(/[aeiouyæøå]/gi) || []).length;
+        const consonants = (word.match(/[bcdfghjklmnpqrstvwxz]/gi) || []).length;
+        let color = 'black';
+        if (vowels > consonants) {
+          color = 'red';
+        } else if (consonants > vowels) {
+          color = 'green';
+        }
+        return { text: word, color: color };
+      });
+    }
   }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
 }
+</script>
+<style>
 </style>
