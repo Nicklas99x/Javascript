@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset=utf-8>
+  <title>queens</title>
+</head>
+
+<body>
+  <p id="her">Resultater:</p>
+  <script id="worker1">    
+    var noOfQueens, queens =new Array(32), noOfSolutions, time, minus1, fastLegalCounter, LegalCounter;
+    var columnOccupied = new Array(32), venstreDiagOccupied = new Array(32), højreDiagOccupied = new Array(32);
+    onmessage = function (e) {
+      findNoOfSolutions(10);
+    }
+    function findNoOfSolutions(it) {
+      for (var i = 1; i <= it; i++) {
+        noOfSolutions = 0;
+        noOfQueens = 14;
+        time = performance.now();
+        FasterPositionQueens();
+        time = performance.now() - time; let s = i + ": " + noOfSolutions + "<b> " + (time / 1000) + "</b> " + fastLegalCounter;
+        console.log(s); postMessage(s);
+      }
+    }
+    function FasterPositionQueens() {
+      var row = 0, minus1 = noOfQueens - 1, col = 0;
+      fastLegalCounter = 0;
+      do {
+        do {
+          fastLegalCounter++;
+          if (columnOccupied[col] || venstreDiagOccupied[row + col] || højreDiagOccupied[row + minus1 - col]) {
+            col++;
+          } else {
+            if (row >= minus1) {
+              noOfSolutions++;
+              col = noOfQueens;
+            } else {
+              columnOccupied[col] = true;
+              venstreDiagOccupied[row + col] = true;
+              højreDiagOccupied[row + minus1 - col] = true;
+              queens[row++] = col;              
+              col = 0;
+            }
+          }
+        } while (col < noOfQueens);
+        row--;
+        do {
+          col = queens[row];
+          columnOccupied[col] = false;
+          venstreDiagOccupied[row + col] = false;
+          højreDiagOccupied[row + minus1 - col] = false;
+          if ((++col) == noOfQueens) row--; else break;        
+        } while (row >= 0);
+      } while (row >= 0);
+    }
+
+  </script>
+  <script>
+    const resultater = document.getElementById("her");
+    var blob = new Blob([
+      document.querySelector('#worker1').textContent
+    ], { type: "text/javascript" })
+    // Note: window.webkitURL.createObjectURL() in Chrome 10+.
+    var worker = new Worker(window.webkitURL.createObjectURL(blob));
+    worker.onmessage = (function (e) { resultater.innerHTML += "<br>" + e.data });
+    worker.postMessage([]);
+  </script>
+</body>
+
+</html>
